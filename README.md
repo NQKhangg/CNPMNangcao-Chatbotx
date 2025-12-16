@@ -1,4 +1,4 @@
-# CNPMNangcao-Chatbotx
+# CNPMNangcao tích hợp Chatbotx
 Website bán thực phẩm CNPMNC tích hợp Chatbotx
 
 Dự án **Website bán thực phẩm + Chatbotx** là một hệ thống web fullstack phục vụ bán thực phẩm sạch, bao gồm:
