@@ -1,0 +1,4350 @@
+[
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7b9"
+    },
+    "name": "Quản Trị Viên Trung Cấp",
+    "email": "admin@freshmart.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af52"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=admin@freshmart.com",
+    "phone": "0909000000",
+    "gender": "Male",
+    "dateOfBirth": "1990-01-01T00:00:00.000Z",
+    "employeeCode": "NV001",
+    "department": {
+      "$oid": "693ce436f4a6b8c0e625afc1"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "addresses": [],
+    "wishlist": []
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7ba"
+    },
+    "name": "Trần Quốc Cường",
+    "email": "staff2@freshmart.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af53"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=staff2@freshmart.com",
+    "phone": "0907530448",
+    "gender": "Male",
+    "dateOfBirth": "2002-05-05T04:32:41.216Z",
+    "employeeCode": "NV002",
+    "department": {
+      "$oid": "693ce436f4a6b8c0e625afc2"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "addresses": [],
+    "wishlist": []
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7bb"
+    },
+    "name": "Lê Đức Hương",
+    "email": "staff3@freshmart.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af55"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=staff3@freshmart.com",
+    "phone": "0972562658",
+    "gender": "Female",
+    "dateOfBirth": "1997-04-03T18:53:59.169Z",
+    "employeeCode": "NV003",
+    "department": {
+      "$oid": "693ce436f4a6b8c0e625afc7"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "addresses": [],
+    "wishlist": []
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7bc"
+    },
+    "name": "Đặng Ngọc Trang",
+    "email": "staff4@freshmart.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af53"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=staff4@freshmart.com",
+    "phone": "0987577902",
+    "gender": "Female",
+    "dateOfBirth": "2000-07-03T17:51:39.216Z",
+    "employeeCode": "NV004",
+    "department": {
+      "$oid": "693ce436f4a6b8c0e625afc7"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "addresses": [],
+    "wishlist": []
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7bd"
+    },
+    "name": "Đỗ Văn Minh",
+    "email": "staff5@freshmart.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af56"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=staff5@freshmart.com",
+    "phone": "0932361956",
+    "gender": "Female",
+    "dateOfBirth": "1993-08-06T18:24:17.324Z",
+    "employeeCode": "NV005",
+    "department": {
+      "$oid": "693ce436f4a6b8c0e625afc5"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "addresses": [],
+    "wishlist": []
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7be"
+    },
+    "name": "Lê Đức An",
+    "email": "staff6@freshmart.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af53"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=staff6@freshmart.com",
+    "phone": "0907584525",
+    "gender": "Male",
+    "dateOfBirth": "1997-05-17T15:53:21.679Z",
+    "employeeCode": "NV006",
+    "department": {
+      "$oid": "693ce436f4a6b8c0e625afc5"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "addresses": [],
+    "wishlist": []
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7bf"
+    },
+    "name": "Võ Bảo Quân",
+    "email": "staff7@freshmart.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af57"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=staff7@freshmart.com",
+    "phone": "0918381064",
+    "gender": "Male",
+    "dateOfBirth": "1990-12-22T04:09:55.192Z",
+    "employeeCode": "NV007",
+    "department": {
+      "$oid": "693ce436f4a6b8c0e625afc5"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "addresses": [],
+    "wishlist": []
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7c0"
+    },
+    "name": "Đặng Thị Vân",
+    "email": "staff8@freshmart.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af57"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=staff8@freshmart.com",
+    "phone": "0916793852",
+    "gender": "Female",
+    "dateOfBirth": "1986-05-14T15:17:58.252Z",
+    "employeeCode": "NV008",
+    "department": {
+      "$oid": "693ce436f4a6b8c0e625afc1"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "addresses": [],
+    "wishlist": []
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7c1"
+    },
+    "name": "Trần Hoàng Giang",
+    "email": "staff9@freshmart.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af53"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=staff9@freshmart.com",
+    "phone": "0900091348",
+    "gender": "Female",
+    "dateOfBirth": "1988-07-27T11:53:42.208Z",
+    "employeeCode": "NV009",
+    "department": {
+      "$oid": "693ce436f4a6b8c0e625afc7"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "addresses": [],
+    "wishlist": []
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7c2"
+    },
+    "name": "Dương Minh Dũng",
+    "email": "staff10@freshmart.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af55"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=staff10@freshmart.com",
+    "phone": "0901236246",
+    "gender": "Female",
+    "dateOfBirth": "1994-02-06T20:09:12.968Z",
+    "employeeCode": "NV010",
+    "department": {
+      "$oid": "693ce436f4a6b8c0e625afc1"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "addresses": [],
+    "wishlist": []
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7c3"
+    },
+    "name": "Hồ Thị Cường",
+    "email": "staff11@freshmart.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af54"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=staff11@freshmart.com",
+    "phone": "0913933888",
+    "gender": "Female",
+    "dateOfBirth": "1998-01-03T08:48:38.832Z",
+    "employeeCode": "NV011",
+    "department": {
+      "$oid": "693ce436f4a6b8c0e625afc1"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "addresses": [],
+    "wishlist": []
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7c4"
+    },
+    "name": "Phạm Gia Quân",
+    "email": "staff12@freshmart.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af54"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=staff12@freshmart.com",
+    "phone": "0937579174",
+    "gender": "Female",
+    "dateOfBirth": "1994-06-29T16:34:43.521Z",
+    "employeeCode": "NV012",
+    "department": {
+      "$oid": "693ce436f4a6b8c0e625afc2"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "addresses": [],
+    "wishlist": []
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7c5"
+    },
+    "name": "Lý Thị Phúc",
+    "email": "staff13@freshmart.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af55"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=staff13@freshmart.com",
+    "phone": "0914035222",
+    "gender": "Female",
+    "dateOfBirth": "1992-12-17T06:03:10.543Z",
+    "employeeCode": "NV013",
+    "department": {
+      "$oid": "693ce436f4a6b8c0e625afc1"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "addresses": [],
+    "wishlist": []
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7c6"
+    },
+    "name": "Lý Hoàng Trang",
+    "email": "staff14@freshmart.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af55"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=staff14@freshmart.com",
+    "phone": "0903866247",
+    "gender": "Male",
+    "dateOfBirth": "1985-04-28T15:07:16.243Z",
+    "employeeCode": "NV014",
+    "department": {
+      "$oid": "693ce436f4a6b8c0e625afc8"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "addresses": [],
+    "wishlist": []
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7c7"
+    },
+    "name": "Hồ Thanh Lan",
+    "email": "staff15@freshmart.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af53"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=staff15@freshmart.com",
+    "phone": "0931364432",
+    "gender": "Female",
+    "dateOfBirth": "1992-01-19T10:52:51.453Z",
+    "employeeCode": "NV015",
+    "department": {
+      "$oid": "693ce436f4a6b8c0e625afc2"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "addresses": [],
+    "wishlist": []
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7c8"
+    },
+    "name": "Phan Quốc An",
+    "email": "staff16@freshmart.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af56"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=staff16@freshmart.com",
+    "phone": "0933562300",
+    "gender": "Male",
+    "dateOfBirth": "1991-01-04T08:04:35.596Z",
+    "employeeCode": "NV016",
+    "department": {
+      "$oid": "693ce436f4a6b8c0e625afc2"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "addresses": [],
+    "wishlist": []
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7c9"
+    },
+    "name": "Vũ Gia Nam",
+    "email": "staff17@freshmart.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af55"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=staff17@freshmart.com",
+    "phone": "0938621582",
+    "gender": "Female",
+    "dateOfBirth": "1986-12-05T00:01:22.055Z",
+    "employeeCode": "NV017",
+    "department": {
+      "$oid": "693ce436f4a6b8c0e625afc7"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "addresses": [],
+    "wishlist": []
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7ca"
+    },
+    "name": "Lê Ngọc Phúc",
+    "email": "staff18@freshmart.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af56"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=staff18@freshmart.com",
+    "phone": "0934000858",
+    "gender": "Male",
+    "dateOfBirth": "1995-01-26T14:43:35.816Z",
+    "employeeCode": "NV018",
+    "department": {
+      "$oid": "693ce436f4a6b8c0e625afc7"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "addresses": [],
+    "wishlist": []
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7cb"
+    },
+    "name": "Đặng Văn Cường",
+    "email": "staff19@freshmart.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af55"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=staff19@freshmart.com",
+    "phone": "0395457886",
+    "gender": "Male",
+    "dateOfBirth": "2000-03-31T08:50:14.473Z",
+    "employeeCode": "NV019",
+    "department": {
+      "$oid": "693ce436f4a6b8c0e625afc7"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "addresses": [],
+    "wishlist": []
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7cc"
+    },
+    "name": "Lê Ngọc Hương",
+    "email": "staff20@freshmart.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af53"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=staff20@freshmart.com",
+    "phone": "0905826641",
+    "gender": "Male",
+    "dateOfBirth": "1986-01-07T19:42:36.779Z",
+    "employeeCode": "NV020",
+    "department": {
+      "$oid": "693ce436f4a6b8c0e625afc8"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "addresses": [],
+    "wishlist": []
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7cd"
+    },
+    "name": "Võ Đức Tú",
+    "email": "customer1@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer1@gmail.com",
+    "phone": "0913466340",
+    "gender": "Female",
+    "dateOfBirth": "1986-02-17T13:40:21.833Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "697 Hai Bà Trưng, Bình Thạnh, TP. Hồ Chí Minh",
+        "receiverName": "Võ Đức Tú",
+        "phone": "0913466340",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "447 Nam Kỳ Khởi Nghĩa, Gò Vấp, TP. Hồ Chí Minh",
+        "receiverName": "Võ Đức Tú",
+        "phone": "0913466340",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b65b"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7ce"
+    },
+    "name": "Hồ Đức Quân",
+    "email": "customer2@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer2@gmail.com",
+    "phone": "0981958461",
+    "gender": "Female",
+    "dateOfBirth": "1990-08-23T17:43:23.803Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "921 Nguyễn Huệ, Tân Bình, TP. Hồ Chí Minh",
+        "receiverName": "Hồ Đức Quân",
+        "phone": "0981958461",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "624 Cách Mạng Tháng 8, Quận 10, TP. Hồ Chí Minh",
+        "receiverName": "Hồ Đức Quân",
+        "phone": "0981958461",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b628"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7cf"
+    },
+    "name": "Đỗ Quốc An",
+    "email": "customer3@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer3@gmail.com",
+    "phone": "0395138665",
+    "gender": "Male",
+    "dateOfBirth": "1995-08-08T14:48:48.124Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "497 Cách Mạng Tháng 8, Quận 3, TP. Hồ Chí Minh",
+        "receiverName": "Đỗ Quốc An",
+        "phone": "0395138665",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "91 Nguyễn Đình Chiểu, Quận 1, TP. Hồ Chí Minh",
+        "receiverName": "Đỗ Quốc An",
+        "phone": "0395138665",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b65b"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b65b"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b629"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7d0"
+    },
+    "name": "Đỗ Thanh Sơn",
+    "email": "customer4@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer4@gmail.com",
+    "phone": "0394518926",
+    "gender": "Female",
+    "dateOfBirth": "1999-07-17T09:42:26.277Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "565 Pasteur, Quận 3, TP. Hồ Chí Minh",
+        "receiverName": "Đỗ Thanh Sơn",
+        "phone": "0394518926",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7d1"
+    },
+    "name": "Lý Quốc Hương",
+    "email": "customer5@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer5@gmail.com",
+    "phone": "0937541583",
+    "gender": "Male",
+    "dateOfBirth": "1985-04-05T07:49:08.739Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "503 Nam Kỳ Khởi Nghĩa, Quận 10, TP. Hồ Chí Minh",
+        "receiverName": "Lý Quốc Hương",
+        "phone": "0937541583",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b62a"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b65b"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b629"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7d2"
+    },
+    "name": "Hồ Ngọc Trang",
+    "email": "customer6@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer6@gmail.com",
+    "phone": "0934146606",
+    "gender": "Male",
+    "dateOfBirth": "1995-02-17T00:04:18.804Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "315 Nguyễn Huệ, Quận 10, TP. Hồ Chí Minh",
+        "receiverName": "Hồ Ngọc Trang",
+        "phone": "0934146606",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b629"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b629"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7d3"
+    },
+    "name": "Đỗ Đức Quân",
+    "email": "customer7@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer7@gmail.com",
+    "phone": "0909073671",
+    "gender": "Male",
+    "dateOfBirth": "2001-11-18T19:27:35.212Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "104 Nam Kỳ Khởi Nghĩa, Gò Vấp, TP. Hồ Chí Minh",
+        "receiverName": "Đỗ Đức Quân",
+        "phone": "0909073671",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b65b"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7d4"
+    },
+    "name": "Phạm Đức Sơn",
+    "email": "customer8@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer8@gmail.com",
+    "phone": "0982734808",
+    "gender": "Female",
+    "dateOfBirth": "1994-12-05T01:39:56.853Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "186 Lê Lợi, Phú Nhuận, TP. Hồ Chí Minh",
+        "receiverName": "Phạm Đức Sơn",
+        "phone": "0982734808",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "26 Điện Biên Phủ, Gò Vấp, TP. Hồ Chí Minh",
+        "receiverName": "Phạm Đức Sơn",
+        "phone": "0982734808",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b62a"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b68c"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7d5"
+    },
+    "name": "Hồ Đức Phúc",
+    "email": "customer9@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer9@gmail.com",
+    "phone": "0984604904",
+    "gender": "Male",
+    "dateOfBirth": "1997-09-04T20:04:12.255Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "709 Nam Kỳ Khởi Nghĩa, Gò Vấp, TP. Hồ Chí Minh",
+        "receiverName": "Hồ Đức Phúc",
+        "phone": "0984604904",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "612 Trần Hưng Đạo, Bình Thạnh, TP. Hồ Chí Minh",
+        "receiverName": "Hồ Đức Phúc",
+        "phone": "0984604904",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b68c"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b65a"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7d6"
+    },
+    "name": "Bùi Ngọc Trang",
+    "email": "customer10@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer10@gmail.com",
+    "phone": "0904705278",
+    "gender": "Male",
+    "dateOfBirth": "1989-02-09T14:51:04.233Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "875 Điện Biên Phủ, Bình Thạnh, TP. Hồ Chí Minh",
+        "receiverName": "Bùi Ngọc Trang",
+        "phone": "0904705278",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b68c"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b62a"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b65a"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7d7"
+    },
+    "name": "Trần Ngọc Lan",
+    "email": "customer11@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer11@gmail.com",
+    "phone": "0987398963",
+    "gender": "Male",
+    "dateOfBirth": "1999-08-12T13:58:01.237Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "806 Nguyễn Huệ, Quận 1, TP. Hồ Chí Minh",
+        "receiverName": "Trần Ngọc Lan",
+        "phone": "0987398963",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b65b"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b62a"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7d8"
+    },
+    "name": "Ngô Thị Hùng",
+    "email": "customer12@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer12@gmail.com",
+    "phone": "0979090169",
+    "gender": "Female",
+    "dateOfBirth": "1995-12-06T10:03:48.692Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "917 Nguyễn Huệ, Quận 1, TP. Hồ Chí Minh",
+        "receiverName": "Ngô Thị Hùng",
+        "phone": "0979090169",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b629"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b68c"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b65a"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7d9"
+    },
+    "name": "Phạm Minh Thảo",
+    "email": "customer13@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer13@gmail.com",
+    "phone": "0396320174",
+    "gender": "Female",
+    "dateOfBirth": "2002-08-07T22:50:02.763Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "701 Lê Lợi, Phú Nhuận, TP. Hồ Chí Minh",
+        "receiverName": "Phạm Minh Thảo",
+        "phone": "0396320174",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "561 Pasteur, Quận 5, TP. Hồ Chí Minh",
+        "receiverName": "Phạm Minh Thảo",
+        "phone": "0396320174",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b68c"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b629"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7da"
+    },
+    "name": "Hồ Hoàng Dũng",
+    "email": "customer14@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer14@gmail.com",
+    "phone": "0930744612",
+    "gender": "Female",
+    "dateOfBirth": "1997-08-11T07:21:02.626Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "256 Võ Văn Tần, Quận 3, TP. Hồ Chí Minh",
+        "receiverName": "Hồ Hoàng Dũng",
+        "phone": "0930744612",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "454 Pasteur, Quận 1, TP. Hồ Chí Minh",
+        "receiverName": "Hồ Hoàng Dũng",
+        "phone": "0930744612",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b629"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b628"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7db"
+    },
+    "name": "Nguyễn Phương Trang",
+    "email": "customer15@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer15@gmail.com",
+    "phone": "0989199191",
+    "gender": "Male",
+    "dateOfBirth": "2001-12-14T09:39:02.188Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "777 Võ Văn Tần, Bình Thạnh, TP. Hồ Chí Minh",
+        "receiverName": "Nguyễn Phương Trang",
+        "phone": "0989199191",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b628"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7dc"
+    },
+    "name": "Dương Văn Thảo",
+    "email": "customer16@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer16@gmail.com",
+    "phone": "0987498823",
+    "gender": "Female",
+    "dateOfBirth": "1989-07-19T13:20:28.399Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "300 Võ Văn Tần, Phú Nhuận, TP. Hồ Chí Minh",
+        "receiverName": "Dương Văn Thảo",
+        "phone": "0987498823",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "398 Trần Hưng Đạo, Quận 10, TP. Hồ Chí Minh",
+        "receiverName": "Dương Văn Thảo",
+        "phone": "0987498823",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b65a"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b628"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b65a"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7dd"
+    },
+    "name": "Phan Bảo Dũng",
+    "email": "customer17@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer17@gmail.com",
+    "phone": "0931424403",
+    "gender": "Male",
+    "dateOfBirth": "2002-12-19T13:01:48.100Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "90 Pasteur, Tân Bình, TP. Hồ Chí Minh",
+        "receiverName": "Phan Bảo Dũng",
+        "phone": "0931424403",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b629"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b629"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7de"
+    },
+    "name": "Lý Hoàng Bình",
+    "email": "customer18@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer18@gmail.com",
+    "phone": "0935366616",
+    "gender": "Male",
+    "dateOfBirth": "1992-03-23T23:45:42.474Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "591 Nguyễn Đình Chiểu, Bình Thạnh, TP. Hồ Chí Minh",
+        "receiverName": "Lý Hoàng Bình",
+        "phone": "0935366616",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "286 Hai Bà Trưng, Quận 1, TP. Hồ Chí Minh",
+        "receiverName": "Lý Hoàng Bình",
+        "phone": "0935366616",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7df"
+    },
+    "name": "Dương Ngọc Hùng",
+    "email": "customer19@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer19@gmail.com",
+    "phone": "0933521128",
+    "gender": "Male",
+    "dateOfBirth": "1999-05-11T17:54:46.367Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "216 Pasteur, Quận 5, TP. Hồ Chí Minh",
+        "receiverName": "Dương Ngọc Hùng",
+        "phone": "0933521128",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b62a"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b68c"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7e0"
+    },
+    "name": "Trần Bảo Tú",
+    "email": "customer20@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer20@gmail.com",
+    "phone": "0909391041",
+    "gender": "Male",
+    "dateOfBirth": "1990-07-31T21:40:49.295Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "849 Nguyễn Huệ, Quận 5, TP. Hồ Chí Minh",
+        "receiverName": "Trần Bảo Tú",
+        "phone": "0909391041",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "774 Lê Lợi, Phú Nhuận, TP. Hồ Chí Minh",
+        "receiverName": "Trần Bảo Tú",
+        "phone": "0909391041",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b65b"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b65a"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b629"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7e1"
+    },
+    "name": "Võ Thị Thảo",
+    "email": "customer21@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer21@gmail.com",
+    "phone": "0391043019",
+    "gender": "Female",
+    "dateOfBirth": "1996-09-14T21:52:18.164Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "5 Lê Lợi, Quận 10, TP. Hồ Chí Minh",
+        "receiverName": "Võ Thị Thảo",
+        "phone": "0391043019",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "817 Pasteur, Phú Nhuận, TP. Hồ Chí Minh",
+        "receiverName": "Võ Thị Thảo",
+        "phone": "0391043019",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b62a"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b62a"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7e2"
+    },
+    "name": "Hoàng Thị Khánh",
+    "email": "customer22@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer22@gmail.com",
+    "phone": "0397849791",
+    "gender": "Male",
+    "dateOfBirth": "1989-07-21T12:06:18.302Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "359 Điện Biên Phủ, Quận 1, TP. Hồ Chí Minh",
+        "receiverName": "Hoàng Thị Khánh",
+        "phone": "0397849791",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b62a"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7e3"
+    },
+    "name": "Bùi Bảo Khánh",
+    "email": "customer23@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer23@gmail.com",
+    "phone": "0902613728",
+    "gender": "Female",
+    "dateOfBirth": "1986-09-28T09:51:56.806Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "667 Nguyễn Đình Chiểu, Quận 3, TP. Hồ Chí Minh",
+        "receiverName": "Bùi Bảo Khánh",
+        "phone": "0902613728",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "119 Cách Mạng Tháng 8, Quận 5, TP. Hồ Chí Minh",
+        "receiverName": "Bùi Bảo Khánh",
+        "phone": "0902613728",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7e4"
+    },
+    "name": "Phạm Quốc Bình",
+    "email": "customer24@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer24@gmail.com",
+    "phone": "0916396124",
+    "gender": "Female",
+    "dateOfBirth": "2000-03-28T03:54:02.997Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "974 Nguyễn Huệ, Quận 10, TP. Hồ Chí Minh",
+        "receiverName": "Phạm Quốc Bình",
+        "phone": "0916396124",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b65b"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7e5"
+    },
+    "name": "Huỳnh Phương Hương",
+    "email": "customer25@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer25@gmail.com",
+    "phone": "0916249036",
+    "gender": "Female",
+    "dateOfBirth": "2001-09-07T23:40:55.860Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "716 Cách Mạng Tháng 8, Quận 1, TP. Hồ Chí Minh",
+        "receiverName": "Huỳnh Phương Hương",
+        "phone": "0916249036",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "886 Võ Văn Tần, Phú Nhuận, TP. Hồ Chí Minh",
+        "receiverName": "Huỳnh Phương Hương",
+        "phone": "0916249036",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b629"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7e6"
+    },
+    "name": "Đặng Bảo An",
+    "email": "customer26@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer26@gmail.com",
+    "phone": "0932788720",
+    "gender": "Male",
+    "dateOfBirth": "1986-10-17T14:07:54.062Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "638 Nguyễn Huệ, Quận 3, TP. Hồ Chí Minh",
+        "receiverName": "Đặng Bảo An",
+        "phone": "0932788720",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b65a"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b62a"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7e7"
+    },
+    "name": "Bùi Gia Khánh",
+    "email": "customer27@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer27@gmail.com",
+    "phone": "0978660011",
+    "gender": "Female",
+    "dateOfBirth": "2000-04-29T10:15:46.687Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "657 Nguyễn Đình Chiểu, Tân Bình, TP. Hồ Chí Minh",
+        "receiverName": "Bùi Gia Khánh",
+        "phone": "0978660011",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "818 Điện Biên Phủ, Bình Thạnh, TP. Hồ Chí Minh",
+        "receiverName": "Bùi Gia Khánh",
+        "phone": "0978660011",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b629"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b68c"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7e8"
+    },
+    "name": "Ngô Minh Tú",
+    "email": "customer28@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer28@gmail.com",
+    "phone": "0901128593",
+    "gender": "Male",
+    "dateOfBirth": "1989-08-02T00:12:50.898Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "615 Hai Bà Trưng, Tân Bình, TP. Hồ Chí Minh",
+        "receiverName": "Ngô Minh Tú",
+        "phone": "0901128593",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7e9"
+    },
+    "name": "Lê Đức Quân",
+    "email": "customer29@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer29@gmail.com",
+    "phone": "0919143621",
+    "gender": "Male",
+    "dateOfBirth": "1998-07-08T16:44:03.646Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "553 Võ Văn Tần, Gò Vấp, TP. Hồ Chí Minh",
+        "receiverName": "Lê Đức Quân",
+        "phone": "0919143621",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "393 Nam Kỳ Khởi Nghĩa, Tân Bình, TP. Hồ Chí Minh",
+        "receiverName": "Lê Đức Quân",
+        "phone": "0919143621",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7ea"
+    },
+    "name": "Dương Gia Yến",
+    "email": "customer30@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer30@gmail.com",
+    "phone": "0918182592",
+    "gender": "Male",
+    "dateOfBirth": "1993-02-10T03:40:34.388Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "363 Điện Biên Phủ, Quận 10, TP. Hồ Chí Minh",
+        "receiverName": "Dương Gia Yến",
+        "phone": "0918182592",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b62a"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b65a"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7eb"
+    },
+    "name": "Lý Bảo Minh",
+    "email": "customer31@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer31@gmail.com",
+    "phone": "0913949915",
+    "gender": "Male",
+    "dateOfBirth": "1993-12-22T14:47:29.584Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "73 Nguyễn Huệ, Quận 1, TP. Hồ Chí Minh",
+        "receiverName": "Lý Bảo Minh",
+        "phone": "0913949915",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b628"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b629"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b628"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7ec"
+    },
+    "name": "Võ Gia Nam",
+    "email": "customer32@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer32@gmail.com",
+    "phone": "0988341237",
+    "gender": "Male",
+    "dateOfBirth": "1986-07-01T16:05:43.275Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "338 Hai Bà Trưng, Quận 3, TP. Hồ Chí Minh",
+        "receiverName": "Võ Gia Nam",
+        "phone": "0988341237",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "261 Hai Bà Trưng, Quận 10, TP. Hồ Chí Minh",
+        "receiverName": "Võ Gia Nam",
+        "phone": "0988341237",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b629"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b68c"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b628"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7ed"
+    },
+    "name": "Nguyễn Phương Hương",
+    "email": "customer33@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer33@gmail.com",
+    "phone": "0974397102",
+    "gender": "Female",
+    "dateOfBirth": "2001-05-23T05:25:49.797Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "696 Điện Biên Phủ, Tân Bình, TP. Hồ Chí Minh",
+        "receiverName": "Nguyễn Phương Hương",
+        "phone": "0974397102",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7ee"
+    },
+    "name": "Dương Văn Nga",
+    "email": "customer34@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer34@gmail.com",
+    "phone": "0930928981",
+    "gender": "Female",
+    "dateOfBirth": "1990-01-14T11:44:28.082Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "157 Điện Biên Phủ, Quận 5, TP. Hồ Chí Minh",
+        "receiverName": "Dương Văn Nga",
+        "phone": "0930928981",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b628"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b65a"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7ef"
+    },
+    "name": "Võ Thị Hùng",
+    "email": "customer35@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer35@gmail.com",
+    "phone": "0970697457",
+    "gender": "Male",
+    "dateOfBirth": "1988-11-26T09:02:30.805Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "72 Nguyễn Đình Chiểu, Quận 1, TP. Hồ Chí Minh",
+        "receiverName": "Võ Thị Hùng",
+        "phone": "0970697457",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b65a"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7f0"
+    },
+    "name": "Hoàng Thanh Yến",
+    "email": "customer36@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer36@gmail.com",
+    "phone": "0980238574",
+    "gender": "Male",
+    "dateOfBirth": "1999-03-16T15:41:48.822Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "28 Nguyễn Đình Chiểu, Quận 1, TP. Hồ Chí Minh",
+        "receiverName": "Hoàng Thanh Yến",
+        "phone": "0980238574",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b62a"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b65b"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b65a"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7f1"
+    },
+    "name": "Hoàng Quốc Minh",
+    "email": "customer37@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer37@gmail.com",
+    "phone": "0984469510",
+    "gender": "Female",
+    "dateOfBirth": "2000-02-18T16:55:38.835Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "865 Lê Lợi, Gò Vấp, TP. Hồ Chí Minh",
+        "receiverName": "Hoàng Quốc Minh",
+        "phone": "0984469510",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "32 Võ Văn Tần, Quận 3, TP. Hồ Chí Minh",
+        "receiverName": "Hoàng Quốc Minh",
+        "phone": "0984469510",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7f2"
+    },
+    "name": "Hồ Phương Trang",
+    "email": "customer38@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer38@gmail.com",
+    "phone": "0970602043",
+    "gender": "Male",
+    "dateOfBirth": "1987-01-02T20:54:30.540Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "933 Võ Văn Tần, Quận 3, TP. Hồ Chí Minh",
+        "receiverName": "Hồ Phương Trang",
+        "phone": "0970602043",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b629"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b62a"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7f3"
+    },
+    "name": "Lý Hoàng Tú",
+    "email": "customer39@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer39@gmail.com",
+    "phone": "0938071697",
+    "gender": "Male",
+    "dateOfBirth": "1993-01-03T23:28:31.199Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "465 Nguyễn Đình Chiểu, Bình Thạnh, TP. Hồ Chí Minh",
+        "receiverName": "Lý Hoàng Tú",
+        "phone": "0938071697",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b65b"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b68c"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b65a"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7f4"
+    },
+    "name": "Dương Phương Nga",
+    "email": "customer40@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer40@gmail.com",
+    "phone": "0987535255",
+    "gender": "Male",
+    "dateOfBirth": "1986-01-31T12:41:09.444Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "555 Võ Văn Tần, Tân Bình, TP. Hồ Chí Minh",
+        "receiverName": "Dương Phương Nga",
+        "phone": "0987535255",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b68c"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7f5"
+    },
+    "name": "Võ Phương Sơn",
+    "email": "customer41@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer41@gmail.com",
+    "phone": "0900173292",
+    "gender": "Male",
+    "dateOfBirth": "1991-01-16T20:32:20.111Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "34 Điện Biên Phủ, Phú Nhuận, TP. Hồ Chí Minh",
+        "receiverName": "Võ Phương Sơn",
+        "phone": "0900173292",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "415 Võ Văn Tần, Phú Nhuận, TP. Hồ Chí Minh",
+        "receiverName": "Võ Phương Sơn",
+        "phone": "0900173292",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7f6"
+    },
+    "name": "Nguyễn Văn Trang",
+    "email": "customer42@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer42@gmail.com",
+    "phone": "0911894916",
+    "gender": "Female",
+    "dateOfBirth": "1998-02-17T05:05:10.989Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "7 Hai Bà Trưng, Quận 3, TP. Hồ Chí Minh",
+        "receiverName": "Nguyễn Văn Trang",
+        "phone": "0911894916",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b65b"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b629"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b628"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7f7"
+    },
+    "name": "Phan Minh Vân",
+    "email": "customer43@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer43@gmail.com",
+    "phone": "0980750469",
+    "gender": "Male",
+    "dateOfBirth": "1999-09-20T05:16:34.199Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "913 Lê Lợi, Quận 5, TP. Hồ Chí Minh",
+        "receiverName": "Phan Minh Vân",
+        "phone": "0980750469",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b628"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b68c"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7f8"
+    },
+    "name": "Đỗ Bảo Dũng",
+    "email": "customer44@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer44@gmail.com",
+    "phone": "0984914579",
+    "gender": "Female",
+    "dateOfBirth": "1985-01-24T03:07:54.245Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "879 Trần Hưng Đạo, Quận 5, TP. Hồ Chí Minh",
+        "receiverName": "Đỗ Bảo Dũng",
+        "phone": "0984914579",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7f9"
+    },
+    "name": "Hoàng Ngọc Nam",
+    "email": "customer45@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer45@gmail.com",
+    "phone": "0936956850",
+    "gender": "Male",
+    "dateOfBirth": "2000-03-27T13:48:28.537Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "419 Nguyễn Đình Chiểu, Tân Bình, TP. Hồ Chí Minh",
+        "receiverName": "Hoàng Ngọc Nam",
+        "phone": "0936956850",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b65a"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7fa"
+    },
+    "name": "Lý Thanh Nga",
+    "email": "customer46@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer46@gmail.com",
+    "phone": "0939613519",
+    "gender": "Female",
+    "dateOfBirth": "2001-03-08T23:56:20.050Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "560 Lê Lợi, Bình Thạnh, TP. Hồ Chí Minh",
+        "receiverName": "Lý Thanh Nga",
+        "phone": "0939613519",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b65a"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b629"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b68c"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7fb"
+    },
+    "name": "Ngô Thị Nga",
+    "email": "customer47@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer47@gmail.com",
+    "phone": "0932533812",
+    "gender": "Male",
+    "dateOfBirth": "1985-09-13T15:57:58.506Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "219 Nguyễn Huệ, Gò Vấp, TP. Hồ Chí Minh",
+        "receiverName": "Ngô Thị Nga",
+        "phone": "0932533812",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "394 Lê Lợi, Quận 1, TP. Hồ Chí Minh",
+        "receiverName": "Ngô Thị Nga",
+        "phone": "0932533812",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b62a"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b62a"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7fc"
+    },
+    "name": "Đỗ Gia Khánh",
+    "email": "customer48@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer48@gmail.com",
+    "phone": "0901660478",
+    "gender": "Female",
+    "dateOfBirth": "1996-05-24T04:31:42.778Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "692 Lê Lợi, Gò Vấp, TP. Hồ Chí Minh",
+        "receiverName": "Đỗ Gia Khánh",
+        "phone": "0901660478",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "25 Nguyễn Huệ, Phú Nhuận, TP. Hồ Chí Minh",
+        "receiverName": "Đỗ Gia Khánh",
+        "phone": "0901660478",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b62a"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b629"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b68c"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7fd"
+    },
+    "name": "Hồ Gia Tú",
+    "email": "customer49@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer49@gmail.com",
+    "phone": "0937108764",
+    "gender": "Female",
+    "dateOfBirth": "2001-09-22T23:15:20.469Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "296 Điện Biên Phủ, Tân Bình, TP. Hồ Chí Minh",
+        "receiverName": "Hồ Gia Tú",
+        "phone": "0937108764",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b65a"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b68c"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7fe"
+    },
+    "name": "Hoàng Quốc Bình",
+    "email": "customer50@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer50@gmail.com",
+    "phone": "0934973237",
+    "gender": "Male",
+    "dateOfBirth": "2000-03-17T09:09:21.431Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "2 Võ Văn Tần, Quận 1, TP. Hồ Chí Minh",
+        "receiverName": "Hoàng Quốc Bình",
+        "phone": "0934973237",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "617 Hai Bà Trưng, Quận 3, TP. Hồ Chí Minh",
+        "receiverName": "Hoàng Quốc Bình",
+        "phone": "0934973237",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b65b"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b68c"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b62a"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b7ff"
+    },
+    "name": "Phan Hoàng Yến",
+    "email": "customer51@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer51@gmail.com",
+    "phone": "0979461434",
+    "gender": "Male",
+    "dateOfBirth": "1989-07-15T17:35:49.488Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "298 Nguyễn Huệ, Gò Vấp, TP. Hồ Chí Minh",
+        "receiverName": "Phan Hoàng Yến",
+        "phone": "0979461434",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "872 Nguyễn Huệ, Quận 10, TP. Hồ Chí Minh",
+        "receiverName": "Phan Hoàng Yến",
+        "phone": "0979461434",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b800"
+    },
+    "name": "Lê Gia Phúc",
+    "email": "customer52@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer52@gmail.com",
+    "phone": "0936678510",
+    "gender": "Male",
+    "dateOfBirth": "1985-09-12T18:55:19.066Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "706 Hai Bà Trưng, Quận 10, TP. Hồ Chí Minh",
+        "receiverName": "Lê Gia Phúc",
+        "phone": "0936678510",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "189 Pasteur, Phú Nhuận, TP. Hồ Chí Minh",
+        "receiverName": "Lê Gia Phúc",
+        "phone": "0936678510",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b65b"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b65a"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b801"
+    },
+    "name": "Lê Quốc Vân",
+    "email": "customer53@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer53@gmail.com",
+    "phone": "0902502790",
+    "gender": "Male",
+    "dateOfBirth": "1987-11-27T19:31:36.123Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "770 Hai Bà Trưng, Tân Bình, TP. Hồ Chí Minh",
+        "receiverName": "Lê Quốc Vân",
+        "phone": "0902502790",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b62a"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b802"
+    },
+    "name": "Hoàng Ngọc An",
+    "email": "customer54@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer54@gmail.com",
+    "phone": "0915786051",
+    "gender": "Female",
+    "dateOfBirth": "1992-12-24T04:53:49.956Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "129 Pasteur, Quận 1, TP. Hồ Chí Minh",
+        "receiverName": "Hoàng Ngọc An",
+        "phone": "0915786051",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b68c"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b628"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b62a"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b803"
+    },
+    "name": "Hồ Phương Hương",
+    "email": "customer55@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer55@gmail.com",
+    "phone": "0972905049",
+    "gender": "Female",
+    "dateOfBirth": "2000-06-16T16:29:38.479Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "796 Cách Mạng Tháng 8, Tân Bình, TP. Hồ Chí Minh",
+        "receiverName": "Hồ Phương Hương",
+        "phone": "0972905049",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b68c"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b65a"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b62a"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b804"
+    },
+    "name": "Dương Đức Quân",
+    "email": "customer56@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer56@gmail.com",
+    "phone": "0912409615",
+    "gender": "Male",
+    "dateOfBirth": "1994-02-22T16:57:07.235Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "462 Võ Văn Tần, Quận 5, TP. Hồ Chí Minh",
+        "receiverName": "Dương Đức Quân",
+        "phone": "0912409615",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b65b"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b628"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b62a"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b805"
+    },
+    "name": "Nguyễn Quốc Minh",
+    "email": "customer57@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer57@gmail.com",
+    "phone": "0918905766",
+    "gender": "Male",
+    "dateOfBirth": "1998-04-24T00:00:22.919Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "884 Nguyễn Đình Chiểu, Quận 5, TP. Hồ Chí Minh",
+        "receiverName": "Nguyễn Quốc Minh",
+        "phone": "0918905766",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "713 Lê Lợi, Tân Bình, TP. Hồ Chí Minh",
+        "receiverName": "Nguyễn Quốc Minh",
+        "phone": "0918905766",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b65b"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b68c"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b806"
+    },
+    "name": "Nguyễn Phương Vân",
+    "email": "customer58@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer58@gmail.com",
+    "phone": "0901937908",
+    "gender": "Male",
+    "dateOfBirth": "1999-01-21T08:46:11.891Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "602 Pasteur, Gò Vấp, TP. Hồ Chí Minh",
+        "receiverName": "Nguyễn Phương Vân",
+        "phone": "0901937908",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b62a"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b65b"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b807"
+    },
+    "name": "Ngô Hoàng Dũng",
+    "email": "customer59@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer59@gmail.com",
+    "phone": "0983870483",
+    "gender": "Female",
+    "dateOfBirth": "1991-11-09T19:00:30.838Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "437 Nguyễn Huệ, Quận 1, TP. Hồ Chí Minh",
+        "receiverName": "Ngô Hoàng Dũng",
+        "phone": "0983870483",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "824 Võ Văn Tần, Bình Thạnh, TP. Hồ Chí Minh",
+        "receiverName": "Ngô Hoàng Dũng",
+        "phone": "0983870483",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b68c"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b65b"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b629"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b808"
+    },
+    "name": "Trần Quốc Hương",
+    "email": "customer60@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer60@gmail.com",
+    "phone": "0397537446",
+    "gender": "Female",
+    "dateOfBirth": "1987-12-03T21:17:27.202Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "89 Pasteur, Quận 10, TP. Hồ Chí Minh",
+        "receiverName": "Trần Quốc Hương",
+        "phone": "0397537446",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "747 Hai Bà Trưng, Quận 5, TP. Hồ Chí Minh",
+        "receiverName": "Trần Quốc Hương",
+        "phone": "0397537446",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b62a"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b809"
+    },
+    "name": "Dương Phương Minh",
+    "email": "customer61@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer61@gmail.com",
+    "phone": "0912143050",
+    "gender": "Female",
+    "dateOfBirth": "1985-12-20T15:12:57.448Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "283 Lê Lợi, Quận 5, TP. Hồ Chí Minh",
+        "receiverName": "Dương Phương Minh",
+        "phone": "0912143050",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b62a"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b62a"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b80a"
+    },
+    "name": "Vũ Đức Thảo",
+    "email": "customer62@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer62@gmail.com",
+    "phone": "0984227496",
+    "gender": "Male",
+    "dateOfBirth": "1986-09-23T05:19:57.317Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "739 Nguyễn Huệ, Phú Nhuận, TP. Hồ Chí Minh",
+        "receiverName": "Vũ Đức Thảo",
+        "phone": "0984227496",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b628"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b629"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b80b"
+    },
+    "name": "Nguyễn Bảo Khánh",
+    "email": "customer63@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer63@gmail.com",
+    "phone": "0930325223",
+    "gender": "Male",
+    "dateOfBirth": "2001-04-11T18:44:14.755Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "560 Nguyễn Huệ, Quận 5, TP. Hồ Chí Minh",
+        "receiverName": "Nguyễn Bảo Khánh",
+        "phone": "0930325223",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b629"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b80c"
+    },
+    "name": "Dương Gia Phúc",
+    "email": "customer64@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer64@gmail.com",
+    "phone": "0935955644",
+    "gender": "Male",
+    "dateOfBirth": "1987-03-24T01:40:05.070Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "942 Trần Hưng Đạo, Quận 1, TP. Hồ Chí Minh",
+        "receiverName": "Dương Gia Phúc",
+        "phone": "0935955644",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b65a"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b628"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b80d"
+    },
+    "name": "Bùi Bảo Trang",
+    "email": "customer65@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer65@gmail.com",
+    "phone": "0910967328",
+    "gender": "Male",
+    "dateOfBirth": "1999-11-13T16:14:26.191Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "238 Hai Bà Trưng, Quận 10, TP. Hồ Chí Minh",
+        "receiverName": "Bùi Bảo Trang",
+        "phone": "0910967328",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b80e"
+    },
+    "name": "Vũ Đức Quân",
+    "email": "customer66@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer66@gmail.com",
+    "phone": "0981474758",
+    "gender": "Female",
+    "dateOfBirth": "1989-12-19T21:10:33.400Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "959 Pasteur, Bình Thạnh, TP. Hồ Chí Minh",
+        "receiverName": "Vũ Đức Quân",
+        "phone": "0981474758",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b65b"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b80f"
+    },
+    "name": "Lý Quốc Thảo",
+    "email": "customer67@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer67@gmail.com",
+    "phone": "0902765205",
+    "gender": "Female",
+    "dateOfBirth": "2000-02-29T03:53:12.026Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "939 Lê Lợi, Tân Bình, TP. Hồ Chí Minh",
+        "receiverName": "Lý Quốc Thảo",
+        "phone": "0902765205",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b62a"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b810"
+    },
+    "name": "Hoàng Thanh Sơn",
+    "email": "customer68@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer68@gmail.com",
+    "phone": "0903853579",
+    "gender": "Male",
+    "dateOfBirth": "1989-07-19T11:44:48.198Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "834 Pasteur, Quận 10, TP. Hồ Chí Minh",
+        "receiverName": "Hoàng Thanh Sơn",
+        "phone": "0903853579",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b629"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b811"
+    },
+    "name": "Bùi Gia Nam",
+    "email": "customer69@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer69@gmail.com",
+    "phone": "0930227873",
+    "gender": "Female",
+    "dateOfBirth": "1998-01-19T03:15:01.610Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "176 Nguyễn Huệ, Quận 10, TP. Hồ Chí Minh",
+        "receiverName": "Bùi Gia Nam",
+        "phone": "0930227873",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "950 Điện Biên Phủ, Bình Thạnh, TP. Hồ Chí Minh",
+        "receiverName": "Bùi Gia Nam",
+        "phone": "0930227873",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b62a"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b62a"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b65a"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b812"
+    },
+    "name": "Trần Đức Nga",
+    "email": "customer70@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer70@gmail.com",
+    "phone": "0989546415",
+    "gender": "Female",
+    "dateOfBirth": "1998-01-16T16:34:18.978Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "737 Cách Mạng Tháng 8, Quận 1, TP. Hồ Chí Minh",
+        "receiverName": "Trần Đức Nga",
+        "phone": "0989546415",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b62a"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b813"
+    },
+    "name": "Võ Bảo Tú",
+    "email": "customer71@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer71@gmail.com",
+    "phone": "0393698554",
+    "gender": "Female",
+    "dateOfBirth": "2001-02-04T20:00:49.475Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "389 Pasteur, Phú Nhuận, TP. Hồ Chí Minh",
+        "receiverName": "Võ Bảo Tú",
+        "phone": "0393698554",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b629"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b814"
+    },
+    "name": "Lê Văn Thảo",
+    "email": "customer72@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer72@gmail.com",
+    "phone": "0978904689",
+    "gender": "Female",
+    "dateOfBirth": "1989-05-31T12:56:27.389Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "55 Trần Hưng Đạo, Phú Nhuận, TP. Hồ Chí Minh",
+        "receiverName": "Lê Văn Thảo",
+        "phone": "0978904689",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b815"
+    },
+    "name": "Lê Quốc Cường",
+    "email": "customer73@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer73@gmail.com",
+    "phone": "0909530087",
+    "gender": "Male",
+    "dateOfBirth": "1995-10-23T00:19:49.017Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "718 Nguyễn Đình Chiểu, Quận 10, TP. Hồ Chí Minh",
+        "receiverName": "Lê Quốc Cường",
+        "phone": "0909530087",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b65b"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b68c"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b62a"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b816"
+    },
+    "name": "Đỗ Thị Sơn",
+    "email": "customer74@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer74@gmail.com",
+    "phone": "0900659544",
+    "gender": "Male",
+    "dateOfBirth": "1986-09-14T14:00:00.854Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "829 Trần Hưng Đạo, Phú Nhuận, TP. Hồ Chí Minh",
+        "receiverName": "Đỗ Thị Sơn",
+        "phone": "0900659544",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "501 Võ Văn Tần, Quận 5, TP. Hồ Chí Minh",
+        "receiverName": "Đỗ Thị Sơn",
+        "phone": "0900659544",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b65a"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b817"
+    },
+    "name": "Đỗ Thị Hùng",
+    "email": "customer75@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer75@gmail.com",
+    "phone": "0919575688",
+    "gender": "Female",
+    "dateOfBirth": "1991-07-20T06:02:23.897Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "455 Hai Bà Trưng, Quận 5, TP. Hồ Chí Minh",
+        "receiverName": "Đỗ Thị Hùng",
+        "phone": "0919575688",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b65a"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b68c"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b818"
+    },
+    "name": "Huỳnh Phương Cường",
+    "email": "customer76@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer76@gmail.com",
+    "phone": "0937824647",
+    "gender": "Male",
+    "dateOfBirth": "1989-03-21T12:52:53.625Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "748 Cách Mạng Tháng 8, Bình Thạnh, TP. Hồ Chí Minh",
+        "receiverName": "Huỳnh Phương Cường",
+        "phone": "0937824647",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "692 Trần Hưng Đạo, Quận 1, TP. Hồ Chí Minh",
+        "receiverName": "Huỳnh Phương Cường",
+        "phone": "0937824647",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b819"
+    },
+    "name": "Dương Gia Phúc",
+    "email": "customer77@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer77@gmail.com",
+    "phone": "0913760009",
+    "gender": "Female",
+    "dateOfBirth": "1988-05-12T20:24:55.990Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "381 Nguyễn Huệ, Gò Vấp, TP. Hồ Chí Minh",
+        "receiverName": "Dương Gia Phúc",
+        "phone": "0913760009",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b628"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b68c"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b628"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b81a"
+    },
+    "name": "Dương Văn Uyên",
+    "email": "customer78@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer78@gmail.com",
+    "phone": "0972925200",
+    "gender": "Female",
+    "dateOfBirth": "1994-06-25T00:48:26.796Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "448 Nam Kỳ Khởi Nghĩa, Quận 10, TP. Hồ Chí Minh",
+        "receiverName": "Dương Văn Uyên",
+        "phone": "0972925200",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b65b"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b68c"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b62a"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b81b"
+    },
+    "name": "Đỗ Đức Khánh",
+    "email": "customer79@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer79@gmail.com",
+    "phone": "0902894966",
+    "gender": "Male",
+    "dateOfBirth": "1999-11-28T11:38:10.526Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "697 Điện Biên Phủ, Bình Thạnh, TP. Hồ Chí Minh",
+        "receiverName": "Đỗ Đức Khánh",
+        "phone": "0902894966",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "502 Trần Hưng Đạo, Quận 1, TP. Hồ Chí Minh",
+        "receiverName": "Đỗ Đức Khánh",
+        "phone": "0902894966",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b68c"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b629"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b81c"
+    },
+    "name": "Ngô Văn Tú",
+    "email": "customer80@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer80@gmail.com",
+    "phone": "0970926392",
+    "gender": "Female",
+    "dateOfBirth": "1997-02-13T15:39:01.935Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "599 Trần Hưng Đạo, Gò Vấp, TP. Hồ Chí Minh",
+        "receiverName": "Ngô Văn Tú",
+        "phone": "0970926392",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b81d"
+    },
+    "name": "Võ Quốc Uyên",
+    "email": "customer81@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer81@gmail.com",
+    "phone": "0933811022",
+    "gender": "Female",
+    "dateOfBirth": "1988-01-27T16:20:28.458Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "33 Lê Lợi, Tân Bình, TP. Hồ Chí Minh",
+        "receiverName": "Võ Quốc Uyên",
+        "phone": "0933811022",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "293 Cách Mạng Tháng 8, Quận 10, TP. Hồ Chí Minh",
+        "receiverName": "Võ Quốc Uyên",
+        "phone": "0933811022",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b81e"
+    },
+    "name": "Lê Ngọc Vân",
+    "email": "customer82@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer82@gmail.com",
+    "phone": "0980745659",
+    "gender": "Female",
+    "dateOfBirth": "1985-07-10T19:42:02.225Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "391 Pasteur, Gò Vấp, TP. Hồ Chí Minh",
+        "receiverName": "Lê Ngọc Vân",
+        "phone": "0980745659",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "104 Võ Văn Tần, Quận 1, TP. Hồ Chí Minh",
+        "receiverName": "Lê Ngọc Vân",
+        "phone": "0980745659",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b629"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b68c"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b628"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b81f"
+    },
+    "name": "Đỗ Ngọc Dũng",
+    "email": "customer83@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer83@gmail.com",
+    "phone": "0395548784",
+    "gender": "Female",
+    "dateOfBirth": "1992-06-22T06:08:12.541Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "908 Trần Hưng Đạo, Quận 5, TP. Hồ Chí Minh",
+        "receiverName": "Đỗ Ngọc Dũng",
+        "phone": "0395548784",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "589 Cách Mạng Tháng 8, Quận 1, TP. Hồ Chí Minh",
+        "receiverName": "Đỗ Ngọc Dũng",
+        "phone": "0395548784",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b68c"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b820"
+    },
+    "name": "Huỳnh Hoàng Uyên",
+    "email": "customer84@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer84@gmail.com",
+    "phone": "0938846013",
+    "gender": "Female",
+    "dateOfBirth": "1995-04-25T00:53:50.401Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "860 Nguyễn Huệ, Phú Nhuận, TP. Hồ Chí Minh",
+        "receiverName": "Huỳnh Hoàng Uyên",
+        "phone": "0938846013",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b65a"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b62a"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b629"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b821"
+    },
+    "name": "Lê Hoàng Quân",
+    "email": "customer85@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer85@gmail.com",
+    "phone": "0939867349",
+    "gender": "Female",
+    "dateOfBirth": "1993-04-23T23:42:14.075Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "311 Pasteur, Quận 3, TP. Hồ Chí Minh",
+        "receiverName": "Lê Hoàng Quân",
+        "phone": "0939867349",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "966 Nguyễn Huệ, Quận 10, TP. Hồ Chí Minh",
+        "receiverName": "Lê Hoàng Quân",
+        "phone": "0939867349",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b65b"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b65b"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b65a"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b822"
+    },
+    "name": "Lê Thanh Quân",
+    "email": "customer86@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer86@gmail.com",
+    "phone": "0907723172",
+    "gender": "Female",
+    "dateOfBirth": "1999-01-20T19:50:49.255Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "819 Trần Hưng Đạo, Quận 3, TP. Hồ Chí Minh",
+        "receiverName": "Lê Thanh Quân",
+        "phone": "0907723172",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b628"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b62a"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b65b"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b823"
+    },
+    "name": "Lý Phương Sơn",
+    "email": "customer87@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer87@gmail.com",
+    "phone": "0399436972",
+    "gender": "Male",
+    "dateOfBirth": "1989-01-25T04:13:19.502Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "211 Nguyễn Huệ, Bình Thạnh, TP. Hồ Chí Minh",
+        "receiverName": "Lý Phương Sơn",
+        "phone": "0399436972",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b629"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b65a"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b65a"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b824"
+    },
+    "name": "Hoàng Bảo Tú",
+    "email": "customer88@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer88@gmail.com",
+    "phone": "0900270081",
+    "gender": "Female",
+    "dateOfBirth": "1996-04-30T02:32:09.730Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "253 Điện Biên Phủ, Gò Vấp, TP. Hồ Chí Minh",
+        "receiverName": "Hoàng Bảo Tú",
+        "phone": "0900270081",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b68c"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b65a"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b825"
+    },
+    "name": "Đặng Thị Yến",
+    "email": "customer89@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer89@gmail.com",
+    "phone": "0986952903",
+    "gender": "Female",
+    "dateOfBirth": "1986-01-11T22:18:29.258Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "712 Nguyễn Đình Chiểu, Gò Vấp, TP. Hồ Chí Minh",
+        "receiverName": "Đặng Thị Yến",
+        "phone": "0986952903",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b68c"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b65a"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b628"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b826"
+    },
+    "name": "Ngô Bảo Thảo",
+    "email": "customer90@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer90@gmail.com",
+    "phone": "0906024630",
+    "gender": "Male",
+    "dateOfBirth": "1994-11-06T09:04:54.064Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "461 Nguyễn Huệ, Phú Nhuận, TP. Hồ Chí Minh",
+        "receiverName": "Ngô Bảo Thảo",
+        "phone": "0906024630",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b65b"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b62a"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b62a"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b827"
+    },
+    "name": "Phạm Ngọc Uyên",
+    "email": "customer91@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer91@gmail.com",
+    "phone": "0903817920",
+    "gender": "Male",
+    "dateOfBirth": "1986-11-15T12:28:54.236Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "803 Cách Mạng Tháng 8, Tân Bình, TP. Hồ Chí Minh",
+        "receiverName": "Phạm Ngọc Uyên",
+        "phone": "0903817920",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b65b"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b828"
+    },
+    "name": "Phan Ngọc Hương",
+    "email": "customer92@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer92@gmail.com",
+    "phone": "0911951389",
+    "gender": "Female",
+    "dateOfBirth": "2002-08-08T12:03:32.945Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "962 Nguyễn Huệ, Gò Vấp, TP. Hồ Chí Minh",
+        "receiverName": "Phan Ngọc Hương",
+        "phone": "0911951389",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "329 Điện Biên Phủ, Bình Thạnh, TP. Hồ Chí Minh",
+        "receiverName": "Phan Ngọc Hương",
+        "phone": "0911951389",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b629"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b68c"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b829"
+    },
+    "name": "Dương Đức Cường",
+    "email": "customer93@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer93@gmail.com",
+    "phone": "0909494571",
+    "gender": "Female",
+    "dateOfBirth": "1989-03-10T00:00:09.670Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "686 Pasteur, Phú Nhuận, TP. Hồ Chí Minh",
+        "receiverName": "Dương Đức Cường",
+        "phone": "0909494571",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b628"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b628"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b628"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b82a"
+    },
+    "name": "Phạm Hoàng Minh",
+    "email": "customer94@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer94@gmail.com",
+    "phone": "0398698212",
+    "gender": "Female",
+    "dateOfBirth": "2002-08-21T16:06:48.429Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "632 Pasteur, Quận 3, TP. Hồ Chí Minh",
+        "receiverName": "Phạm Hoàng Minh",
+        "phone": "0398698212",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b65b"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b82b"
+    },
+    "name": "Huỳnh Ngọc Tú",
+    "email": "customer95@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer95@gmail.com",
+    "phone": "0984474089",
+    "gender": "Male",
+    "dateOfBirth": "1998-08-29T07:35:11.066Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "513 Nam Kỳ Khởi Nghĩa, Tân Bình, TP. Hồ Chí Minh",
+        "receiverName": "Huỳnh Ngọc Tú",
+        "phone": "0984474089",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b628"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b65b"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b82c"
+    },
+    "name": "Trần Ngọc Minh",
+    "email": "customer96@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer96@gmail.com",
+    "phone": "0931358018",
+    "gender": "Female",
+    "dateOfBirth": "1989-02-26T07:05:19.605Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "572 Nguyễn Đình Chiểu, Tân Bình, TP. Hồ Chí Minh",
+        "receiverName": "Trần Ngọc Minh",
+        "phone": "0931358018",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "120 Trần Hưng Đạo, Phú Nhuận, TP. Hồ Chí Minh",
+        "receiverName": "Trần Ngọc Minh",
+        "phone": "0931358018",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b68c"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b82d"
+    },
+    "name": "Lý Gia Trang",
+    "email": "customer97@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer97@gmail.com",
+    "phone": "0912630554",
+    "gender": "Male",
+    "dateOfBirth": "1990-02-14T17:55:45.319Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "568 Điện Biên Phủ, Bình Thạnh, TP. Hồ Chí Minh",
+        "receiverName": "Lý Gia Trang",
+        "phone": "0912630554",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b82e"
+    },
+    "name": "Hồ Ngọc Trang",
+    "email": "customer98@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer98@gmail.com",
+    "phone": "0982028663",
+    "gender": "Male",
+    "dateOfBirth": "1992-06-20T19:02:18.922Z",
+    "addresses": [
+      {
+        "label": "Nhà riêng",
+        "address": "209 Trần Hưng Đạo, Quận 1, TP. Hồ Chí Minh",
+        "receiverName": "Hồ Ngọc Trang",
+        "phone": "0982028663",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "700 Võ Văn Tần, Tân Bình, TP. Hồ Chí Minh",
+        "receiverName": "Hồ Ngọc Trang",
+        "phone": "0982028663",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [
+      {
+        "$oid": "693cf519f4a6b8c0e625b65a"
+      },
+      {
+        "$oid": "693cf519f4a6b8c0e625b629"
+      }
+    ],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b82f"
+    },
+    "name": "Lê Ngọc Yến",
+    "email": "customer99@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer99@gmail.com",
+    "phone": "0902020810",
+    "gender": "Female",
+    "dateOfBirth": "2001-01-28T08:15:08.142Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "655 Lê Lợi, Bình Thạnh, TP. Hồ Chí Minh",
+        "receiverName": "Lê Ngọc Yến",
+        "phone": "0902020810",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "176 Nguyễn Đình Chiểu, Bình Thạnh, TP. Hồ Chí Minh",
+        "receiverName": "Lê Ngọc Yến",
+        "phone": "0902020810",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": {
+      "$oid": "693d4f2ff4a6b8c0e625b830"
+    },
+    "name": "Phan Minh Sơn",
+    "email": "customer100@gmail.com",
+    "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+    "roleId": {
+      "$oid": "693cdee1f4a6b8c0e625af58"
+    },
+    "authType": "local",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=customer100@gmail.com",
+    "phone": "0989561207",
+    "gender": "Female",
+    "dateOfBirth": "1989-11-21T02:05:09.093Z",
+    "addresses": [
+      {
+        "label": "Công ty",
+        "address": "205 Cách Mạng Tháng 8, Gò Vấp, TP. Hồ Chí Minh",
+        "receiverName": "Phan Minh Sơn",
+        "phone": "0989561207",
+        "isDefault": true
+      },
+      {
+        "label": "Văn phòng",
+        "address": "311 Hai Bà Trưng, Quận 10, TP. Hồ Chí Minh",
+        "receiverName": "Phan Minh Sơn",
+        "phone": "0989561207",
+        "isDefault": false
+      }
+    ],
+    "wishlist": [],
+    "employeeCode": null,
+    "department": null,
+    "isActive": true,
+    "isDeleted": false
+  }
+]

@@ -1,0 +1,444 @@
+[{
+  "_id": {
+    "$oid": "693cdee1f4a6b8c0e625af52"
+  },
+  "name": "Admin (Quản trị viên)",
+  "permissions": [
+    {
+      "resource": "products",
+      "actions": [
+        "CREATE",
+        "READ",
+        "UPDATE",
+        "DELETE"
+      ]
+    },
+    {
+      "resource": "categories",
+      "actions": [
+        "CREATE",
+        "READ",
+        "UPDATE",
+        "DELETE"
+      ]
+    },
+    {
+      "resource": "orders",
+      "actions": [
+        "CREATE",
+        "READ",
+        "UPDATE",
+        "DELETE"
+      ]
+    },
+    {
+      "resource": "users",
+      "actions": [
+        "CREATE",
+        "READ",
+        "UPDATE",
+        "DELETE"
+      ]
+    },
+    {
+      "resource": "blogs",
+      "actions": [
+        "CREATE",
+        "READ",
+        "UPDATE",
+        "DELETE"
+      ]
+    },
+    {
+      "resource": "coupons",
+      "actions": [
+        "CREATE",
+        "READ",
+        "UPDATE",
+        "DELETE"
+      ]
+    },
+    {
+      "resource": "inventory",
+      "actions": [
+        "CREATE",
+        "READ",
+        "UPDATE",
+        "DELETE"
+      ]
+    },
+    {
+      "resource": "suppliers",
+      "actions": [
+        "CREATE",
+        "READ",
+        "UPDATE",
+        "DELETE"
+      ]
+    },
+    {
+      "resource": "contacts",
+      "actions": [
+        "CREATE",
+        "READ",
+        "UPDATE",
+        "DELETE"
+      ]
+    },
+    {
+      "resource": "roles",
+      "actions": [
+        "CREATE",
+        "READ",
+        "UPDATE",
+        "DELETE"
+      ]
+    },
+    {
+      "resource": "audit_logs",
+      "actions": [
+        "CREATE",
+        "READ",
+        "UPDATE",
+        "DELETE"
+      ]
+    },
+    {
+      "resource": "departments",
+      "actions": [
+        "CREATE",
+        "READ",
+        "UPDATE",
+        "DELETE"
+      ]
+    },
+    {
+      "resource": "statistics",
+      "actions": [
+        "CREATE",
+        "READ",
+        "UPDATE",
+        "DELETE"
+      ]
+    }
+  ],
+  "isDeleted": false,
+  "updatedAt": {
+    "$date": "2025-12-14T04:37:56.930Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "693cdee1f4a6b8c0e625af53"
+  },
+  "name": "Store Manager (Cửa hàng trưởng)",
+  "permissions": [
+    {
+      "resource": "products",
+      "actions": [
+        "CREATE",
+        "READ",
+        "UPDATE",
+        "DELETE"
+      ]
+    },
+    {
+      "resource": "categories",
+      "actions": [
+        "CREATE",
+        "READ",
+        "UPDATE",
+        "DELETE"
+      ]
+    },
+    {
+      "resource": "orders",
+      "actions": [
+        "READ",
+        "UPDATE"
+      ]
+    },
+    {
+      "resource": "users",
+      "actions": [
+        "READ",
+        "UPDATE"
+      ]
+    },
+    {
+      "resource": "blogs",
+      "actions": [
+        "CREATE",
+        "READ",
+        "UPDATE",
+        "DELETE"
+      ]
+    },
+    {
+      "resource": "coupons",
+      "actions": [
+        "CREATE",
+        "READ",
+        "UPDATE",
+        "DELETE"
+      ]
+    },
+    {
+      "resource": "inventory",
+      "actions": [
+        "READ"
+      ]
+    },
+    {
+      "resource": "suppliers",
+      "actions": [
+        "READ"
+      ]
+    },
+    {
+      "resource": "contacts",
+      "actions": [
+        "READ",
+        "UPDATE"
+      ]
+    },
+    {
+      "resource": "departments",
+      "actions": [
+        "READ"
+      ]
+    },
+    {
+      "resource": "audit_logs",
+      "actions": [
+        "READ"
+      ]
+    }
+  ],
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693cdee1f4a6b8c0e625af54"
+  },
+  "name": "Warehouse (Thủ kho)",
+  "permissions": [
+    {
+      "resource": "inventory",
+      "actions": [
+        "CREATE",
+        "READ",
+        "UPDATE",
+        "DELETE"
+      ]
+    },
+    {
+      "resource": "products",
+      "actions": [
+        "READ"
+      ]
+    },
+    {
+      "resource": "categories",
+      "actions": [
+        "READ"
+      ]
+    },
+    {
+      "resource": "orders",
+      "actions": [
+        "READ"
+      ]
+    },
+    {
+      "resource": "suppliers",
+      "actions": [
+        "READ",
+        "UPDATE"
+      ]
+    }
+  ],
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693cdee1f4a6b8c0e625af55"
+  },
+  "name": "Sales / CSKH (Bán hàng)",
+  "permissions": [
+    {
+      "resource": "orders",
+      "actions": [
+        "CREATE",
+        "READ",
+        "UPDATE"
+      ]
+    },
+    {
+      "resource": "users",
+      "actions": [
+        "CREATE",
+        "READ",
+        "UPDATE"
+      ]
+    },
+    {
+      "resource": "contacts",
+      "actions": [
+        "CREATE",
+        "READ",
+        "UPDATE"
+      ]
+    },
+    {
+      "resource": "products",
+      "actions": [
+        "READ"
+      ]
+    },
+    {
+      "resource": "categories",
+      "actions": [
+        "READ"
+      ]
+    },
+    {
+      "resource": "coupons",
+      "actions": [
+        "READ"
+      ]
+    },
+    {
+      "resource": "inventory",
+      "actions": [
+        "READ"
+      ]
+    }
+  ],
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693cdee1f4a6b8c0e625af56"
+  },
+  "name": "Marketing (Tiếp thị)",
+  "permissions": [
+    {
+      "resource": "blogs",
+      "actions": [
+        "CREATE",
+        "READ",
+        "UPDATE",
+        "DELETE"
+      ]
+    },
+    {
+      "resource": "coupons",
+      "actions": [
+        "CREATE",
+        "READ",
+        "UPDATE",
+        "DELETE"
+      ]
+    },
+    {
+      "resource": "products",
+      "actions": [
+        "READ",
+        "UPDATE"
+      ]
+    },
+    {
+      "resource": "categories",
+      "actions": [
+        "READ"
+      ]
+    },
+    {
+      "resource": "orders",
+      "actions": [
+        "READ"
+      ]
+    }
+  ],
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693cdee1f4a6b8c0e625af57"
+  },
+  "name": "Purchasing (Thu mua)",
+  "permissions": [
+    {
+      "resource": "suppliers",
+      "actions": [
+        "CREATE",
+        "READ",
+        "UPDATE",
+        "DELETE"
+      ]
+    },
+    {
+      "resource": "products",
+      "actions": [
+        "CREATE",
+        "READ",
+        "UPDATE"
+      ]
+    },
+    {
+      "resource": "categories",
+      "actions": [
+        "CREATE",
+        "READ",
+        "UPDATE"
+      ]
+    },
+    {
+      "resource": "inventory",
+      "actions": [
+        "READ"
+      ]
+    }
+  ],
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693cdee1f4a6b8c0e625af58"
+  },
+  "name": "Customer",
+  "permissions": [],
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693d97070e4c2446680626af"
+  },
+  "name": "test",
+  "permissions": [
+    {
+      "resource": "products",
+      "actions": [
+        "CREATE",
+        "READ",
+        "UPDATE",
+        "DELETE"
+      ]
+    },
+    {
+      "resource": "categories",
+      "actions": [
+        "CREATE"
+      ]
+    }
+  ],
+  "isDeleted": true,
+  "createdAt": {
+    "$date": "2025-12-13T16:40:39.247Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-13T16:41:15.036Z"
+  },
+  "__v": 0
+}]

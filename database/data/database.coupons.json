@@ -1,0 +1,240 @@
+[
+  {
+    "_id": {
+      "$oid": "693ce5f1f4a6b8c0e625afd7"
+    },
+    "code": "WELCOME20",
+    "type": "PERCENT",
+    "value": 20,
+    "usageLimit": 0,
+    "usedCount": 150,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59.000Z"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "description": "Giảm 20% cho đơn hàng đầu tiên (Không giới hạn lượt dùng)"
+  },
+  {
+    "_id": {
+      "$oid": "693ce5f1f4a6b8c0e625afd8"
+    },
+    "code": "GIAM50K",
+    "type": "AMOUNT",
+    "value": 50000,
+    "usageLimit": 1000,
+    "usedCount": 45,
+    "expiryDate": {
+      "$date": "2025-12-31T23:59:59.000Z"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "description": "Giảm trực tiếp 50.000đ cho đơn hàng"
+  },
+  {
+    "_id": {
+      "$oid": "693ce5f1f4a6b8c0e625afd9"
+    },
+    "code": "FREESHIP",
+    "type": "AMOUNT",
+    "value": 30000,
+    "usageLimit": 0,
+    "usedCount": 890,
+    "expiryDate": {
+      "$date": "2030-01-01T00:00:00.000Z"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "description": "Mã hỗ trợ phí vận chuyển 30k (Dùng mãi mãi)"
+  },
+  {
+    "_id": {
+      "$oid": "693ce5f1f4a6b8c0e625afda"
+    },
+    "code": "TET2026",
+    "type": "PERCENT",
+    "value": 15,
+    "usageLimit": 500,
+    "usedCount": 0,
+    "expiryDate": {
+      "$date": "2026-02-20T23:59:59.000Z"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "description": "Mừng xuân 2026, giảm 15%"
+  },
+  {
+    "_id": {
+      "$oid": "693ce5f1f4a6b8c0e625afdb"
+    },
+    "code": "FLASH100K",
+    "type": "AMOUNT",
+    "value": 100000,
+    "usageLimit": 50,
+    "usedCount": 48,
+    "expiryDate": {
+      "$date": "2025-06-01T23:59:59.000Z"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "description": "Flash Sale giảm sâu 100k, sắp hết lượt (Đã dùng 48/50)"
+  },
+  {
+    "_id": {
+      "$oid": "693ce5f1f4a6b8c0e625afdc"
+    },
+    "code": "VIPMEMBER",
+    "type": "PERCENT",
+    "value": 5,
+    "usageLimit": 0,
+    "usedCount": 1200,
+    "expiryDate": null,
+    "isActive": true,
+    "isDeleted": false,
+    "description": "Giảm 5% trọn đời cho khách VIP (Không có ngày hết hạn)"
+  },
+  {
+    "_id": {
+      "$oid": "693ce5f1f4a6b8c0e625afdd"
+    },
+    "code": "RAUXANH10",
+    "type": "PERCENT",
+    "value": 10,
+    "usageLimit": 200,
+    "usedCount": 12,
+    "expiryDate": {
+      "$date": "2025-08-30T23:59:59.000Z"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "description": "Giảm 10% khi mua rau củ quả"
+  },
+  {
+    "_id": {
+      "$oid": "693ce5f1f4a6b8c0e625afde"
+    },
+    "code": "TESTHETLUOT",
+    "type": "AMOUNT",
+    "value": 20000,
+    "usageLimit": 10,
+    "usedCount": 10,
+    "expiryDate": {
+      "$date": "2025-12-31T23:59:59.000Z"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "description": "Mã này đã hết lượt sử dụng (Used = Limit)"
+  },
+  {
+    "_id": {
+      "$oid": "693ce5f1f4a6b8c0e625afdf"
+    },
+    "code": "TESTHETHAN",
+    "type": "PERCENT",
+    "value": 50,
+    "usageLimit": 100,
+    "usedCount": 5,
+    "expiryDate": {
+      "$date": "2023-01-01T00:00:00.000Z"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "description": "Mã này đã hết hạn từ năm 2023 (Để test validate ngày)"
+  },
+  {
+    "_id": {
+      "$oid": "693ce5f1f4a6b8c0e625afe0"
+    },
+    "code": "TESTKHOA",
+    "type": "AMOUNT",
+    "value": 500000,
+    "usageLimit": 5,
+    "usedCount": 0,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59.000Z"
+    },
+    "isActive": false,
+    "isDeleted": false,
+    "description": "Mã này đang bị Admin tắt (isActive = false)"
+  },
+  {
+    "_id": {
+      "$oid": "693ce5f1f4a6b8c0e625afe1"
+    },
+    "code": "CUOITUAN",
+    "type": "PERCENT",
+    "value": 8,
+    "usageLimit": 100,
+    "usedCount": 20,
+    "expiryDate": {
+      "$date": "2025-12-31T23:59:59.000Z"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "description": "Săn sale cuối tuần giảm 8%"
+  },
+  {
+    "_id": {
+      "$oid": "693ce5f1f4a6b8c0e625afe2"
+    },
+    "code": "MUAHEOI",
+    "type": "AMOUNT",
+    "value": 15000,
+    "usageLimit": 300,
+    "usedCount": 150,
+    "expiryDate": {
+      "$date": "2025-09-01T23:59:59.000Z"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "description": "Giải nhiệt mùa hè giảm 15k"
+  },
+  {
+    "_id": {
+      "$oid": "693ce5f1f4a6b8c0e625afe3"
+    },
+    "code": "HAISAN5",
+    "type": "PERCENT",
+    "value": 5,
+    "usageLimit": 1000,
+    "usedCount": 2,
+    "expiryDate": {
+      "$date": "2025-11-30T23:59:59.000Z"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "description": "Ưu đãi nhỏ 5% cho đồ hải sản"
+  },
+  {
+    "_id": {
+      "$oid": "693ce5f1f4a6b8c0e625afe4"
+    },
+    "code": "BF2025",
+    "type": "PERCENT",
+    "value": 30,
+    "usageLimit": 50,
+    "usedCount": 0,
+    "expiryDate": {
+      "$date": "2025-11-29T23:59:59.000Z"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "description": "Black Friday 2025 giảm sốc 30%"
+  },
+  {
+    "_id": {
+      "$oid": "693ce5f1f4a6b8c0e625afe5"
+    },
+    "code": "XINCHAO",
+    "type": "AMOUNT",
+    "value": 10000,
+    "usageLimit": 0,
+    "usedCount": 33,
+    "expiryDate": {
+      "$date": "2025-12-31T23:59:59.000Z"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "description": "Quà làm quen giảm 10k"
+  }
+]

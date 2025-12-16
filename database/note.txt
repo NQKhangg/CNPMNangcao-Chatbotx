@@ -1,0 +1,27 @@
+Tạo các collection:
++) auditlogs
++) blogs
++) categories
++) contacts
++) coupons
++) departments
++) inventorylogs
++) orders
++) products
++) reviews
++) roles
++) suppliers
++) user
+
+Thứ tự import data:
++) Role
++) Suppliers
++) Departments
++) Category
++) Coupons
++) Product
++) User (Cách tạo admin trong folder user)
++) Orders
++) Blogs
++) Reviews
++) Contacts

@@ -1,0 +1,27 @@
+Tạo một tài khoản admin
+Đăng ký xác minh 2 bước trên tài khoản google để xử dụng gửi mail trong chức năng contact
+example : 
+{
+  "name": "Quản Trị Viên Cao Cấp",
+  "email": "__CHANGE__@gmail.com",
+  "password": "$2b$10$YmWLoj7auumpqrIu8VK2ru9Ck7WiufaFIoYnyCEVzBW0bdnt0yDIS",
+  "roleId": {
+    "$oid": "693cdee1f4a6b8c0e625af52"
+  },
+  "authType": "local",
+  "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=admin@freshmart.com",
+  "phone": "0123456789",
+  "gender": "Male",
+  "dateOfBirth": "1990-01-01T00:00:00.000Z",
+  "employeeCode": "ADMIN",
+  "department": {
+    "$oid": "693ce436f4a6b8c0e625afc1"
+  },
+  "isActive": true,
+  "isDeleted": false,
+  "addresses": [],
+  "wishlist": []
+}
+
+Password Admin : asdjkl131 (đã được hash bằng bcrypt)
+Tất cả tài khoản của các customer có password : asdjkl131

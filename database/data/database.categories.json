@@ -1,0 +1,74 @@
+[
+  {
+    "_id": { "$oid": "69325c45fc163bd4de99a7c4" },
+    "name": "Đồ uống",
+    "slug": "do-uong",
+    "image": "http://localhost:4000/uploads/1765004008562-129712132.webp",
+    "description": "Các loại đồ uống tươi mát, giải khát và tốt cho sức khỏe.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": { "$oid": "69325c50fc163bd4de99a7c7" },
+    "name": "Gia vị",
+    "slug": "gia-vi",
+    "image": "http://localhost:4000/uploads/1765004024942-833677525.webp",
+    "description": "Gia vị nấu ăn giúp món ăn thêm đậm đà và hấp dẫn.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": { "$oid": "69325c6dfc163bd4de99a7ca" },
+    "name": "Gạo & Ngũ cốc",
+    "slug": "gao-va-ngu-coc",
+    "image": "http://localhost:4000/uploads/1765004035339-457192958.webp",
+    "description": "Các loại gạo, ngũ cốc và hạt dinh dưỡng thiết yếu.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": { "$oid": "69325c7bfc163bd4de99a7cd" },
+    "name": "Trứng & Sữa",
+    "slug": "trung-va-sua",
+    "image": "http://localhost:4000/uploads/1765004042673-62331043.webp",
+    "description": "Trứng, sữa và các sản phẩm từ sữa giàu dinh dưỡng.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": { "$oid": "69325c8afc163bd4de99a7d0" },
+    "name": "Hải sản",
+    "slug": "hai-san",
+    "image": "http://localhost:4000/uploads/1765003994597-3465102.webp",
+    "description": "Hải sản tươi, sạch, giàu protein và khoáng chất.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": { "$oid": "69325c9efc163bd4de99a7d5" },
+    "name": "Thịt",
+    "slug": "thit",
+    "image": "http://localhost:4000/uploads/1765003979732-106150838.webp",
+    "description": "Các loại thịt tươi chất lượng cao cho bữa ăn hàng ngày.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": { "$oid": "69325cb0fc163bd4de99a7d8" },
+    "name": "Trái cây",
+    "slug": "trai-cay",
+    "image": "http://localhost:4000/uploads/1765003969129-476727948.webp",
+    "description": "Trái cây tươi tự nhiên, giàu vitamin và chất chống oxy hóa.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": { "$oid": "69325cbafc163bd4de99a7db" },
+    "name": "Rau củ",
+    "slug": "rau-cu",
+    "image": "http://localhost:4000/uploads/1765003954699-645774411.webp",
+    "description": "Rau củ sạch, tươi mỗi ngày, cung cấp chất xơ và vitamin.",
+    "isActive": true,
+    "isDeleted": false
+  }
+]

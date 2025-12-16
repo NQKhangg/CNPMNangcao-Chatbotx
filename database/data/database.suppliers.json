@@ -1,0 +1,1154 @@
+[{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af5a"
+  },
+  "name": "Nông Trại Rau Sạch Đà Lạt Farm",
+  "contactPerson": "Anh Tuấn - Quản lý",
+  "phone": "0909123456",
+  "email": "lienhe@dalatfarm.com",
+  "address": "Phường 8, TP. Đà Lạt, Lâm Đồng",
+  "taxCode": "0312345678",
+  "note": "Chuyên cung cấp xà lách, súp lơ, cà rốt organic.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af5b"
+  },
+  "name": "HTX Rau An Toàn Mộc Châu",
+  "contactPerson": "Chị Lan",
+  "phone": "0912345678",
+  "email": "lan.mocchau@gmail.com",
+  "address": "Thị trấn Nông trường Mộc Châu, Sơn La",
+  "taxCode": "2400123456",
+  "note": "Rau cải mèo, su su, bắp cải.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af5c"
+  },
+  "name": "Công Ty TNHH Rau Củ Quả Việt Green",
+  "contactPerson": "Mr. Long",
+  "phone": "0988765432",
+  "email": "sales@vietgreen.vn",
+  "address": "KCN Phố Nối A, Hưng Yên",
+  "taxCode": "0900123987",
+  "note": "Cung cấp hành tây, khoai tây số lượng lớn.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af5d"
+  },
+  "name": "Vườn Rau Hữu Cơ Happy Veggie",
+  "contactPerson": "Chị Mai",
+  "phone": "0934567890",
+  "email": "order@happyveggie.com",
+  "address": "Củ Chi, TP. Hồ Chí Minh",
+  "taxCode": "",
+  "note": "Rau gia vị, rau mầm các loại.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af5e"
+  },
+  "name": "HTX Nông Nghiệp Hải Dương",
+  "contactPerson": "Anh Hùng",
+  "phone": "0976543210",
+  "email": "htxhaiduong@gmail.com",
+  "address": "Gia Lộc, Hải Dương",
+  "taxCode": "0800456123",
+  "note": "Su hào, cà chua vụ đông.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af5f"
+  },
+  "name": "Nông Sản Sạch Vĩnh Phúc",
+  "contactPerson": "Cô Ba",
+  "phone": "0911223344",
+  "email": "",
+  "address": "Tam Đảo, Vĩnh Phúc",
+  "taxCode": "",
+  "note": "Ngọn su su đặc sản.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af60"
+  },
+  "name": "Rau Củ Quả Nhập Khẩu Fresh World",
+  "contactPerson": "Ms. Sarah Nguyen",
+  "phone": "02839998888",
+  "email": "import@freshworld.vn",
+  "address": "Quận 7, TP. Hồ Chí Minh",
+  "taxCode": "0300987654",
+  "note": "Măng tây, nấm nhập khẩu.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af61"
+  },
+  "name": "Nông Trại Rau Thủy Canh BioFarm",
+  "contactPerson": "Kỹ sư Tùng",
+  "phone": "0966778899",
+  "email": "tung@biofarm.com",
+  "address": "Đông Anh, Hà Nội",
+  "taxCode": "0101234567",
+  "note": "Rau xà lách thủy canh, cải kale.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af62"
+  },
+  "name": "HTX Rau Sạch Củ Chi",
+  "contactPerson": "Chú Bảy",
+  "phone": "0903111222",
+  "address": "Tân Phú Trung, Củ Chi",
+  "note": "Bầu, bí, mướp hương.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af63"
+  },
+  "name": "Công Ty Thực Phẩm Xanh Ba Miền",
+  "contactPerson": "Anh Đức",
+  "phone": "0945678123",
+  "email": "bamienfood@gmail.com",
+  "address": "Thanh Xuân, Hà Nội",
+  "note": "Tổng hợp các loại củ: khoai lang, khoai sọ.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af64"
+  },
+  "name": "Vườn Nấm Việt",
+  "contactPerson": "Chị Thảo",
+  "phone": "0912333444",
+  "address": "Long Khánh, Đồng Nai",
+  "note": "Nấm rơm, nấm bào ngư, nấm đùi gà.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af65"
+  },
+  "name": "Rau Sạch Sapa",
+  "contactPerson": "A Páo",
+  "phone": "0987111222",
+  "address": "Thị xã Sapa, Lào Cai",
+  "note": "Cải mầm đá, ngồng tỏi.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af66"
+  },
+  "name": "HTX Rau An Toàn Vân Nội",
+  "contactPerson": "Bác Tâm",
+  "phone": "0913555666",
+  "address": "Đông Anh, Hà Nội",
+  "note": "Rau muống, rau ngót, mồng tơi.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af67"
+  },
+  "name": "Vựa Trái Cây Miền Tây Chín Mập",
+  "contactPerson": "Anh Chín",
+  "phone": "0909888777",
+  "address": "Cái Bè, Tiền Giang",
+  "note": "Xoài cát Hòa Lộc, vú sữa Lò Rèn.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af68"
+  },
+  "name": "Công Ty XNK Trái Cây Nhiệt Đới",
+  "contactPerson": "Ms. Hạnh",
+  "phone": "0933445566",
+  "email": "hanh@tropicalfruit.vn",
+  "address": "Quận 1, TP. HCM",
+  "taxCode": "0311223344",
+  "note": "Sầu riêng, Măng cụt xuất khẩu.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af69"
+  },
+  "name": "Nông Trại Cam Cao Phong",
+  "contactPerson": "Anh Bình",
+  "phone": "0977665544",
+  "address": "Cao Phong, Hòa Bình",
+  "note": "Cam Cao Phong chính hiệu.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af6a"
+  },
+  "name": "Vựa Bưởi Da Xanh Bến Tre",
+  "contactPerson": "Cô Út",
+  "phone": "0914567890",
+  "address": "Mỏ Cày Bắc, Bến Tre",
+  "note": "Bưởi da xanh ruột hồng.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af6b"
+  },
+  "name": "HTX Vải Thiều Lục Ngạn",
+  "contactPerson": "Ông Hưng",
+  "phone": "0988999000",
+  "address": "Lục Ngạn, Bắc Giang",
+  "note": "Vải thiều (chỉ có mùa hè).",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af6c"
+  },
+  "name": "Thanh Long Bình Thuận Export",
+  "contactPerson": "Mr. John",
+  "phone": "0901234567",
+  "address": "Phan Thiết, Bình Thuận",
+  "taxCode": "4800123123",
+  "note": "Thanh long ruột đỏ, ruột trắng.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af6d"
+  },
+  "name": "Dâu Tây Đà Lạt Hasfarm",
+  "contactPerson": "Quản lý kinh doanh",
+  "phone": "02633123456",
+  "email": "sales@hasfarm.com",
+  "address": "Phường 11, Đà Lạt",
+  "note": "Dâu tây New Zealand, dâu Nhật.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af6e"
+  },
+  "name": "Vườn Nho Ninh Thuận Ba Mọi",
+  "contactPerson": "Chú Ba",
+  "phone": "0913123123",
+  "address": "Phan Rang, Ninh Thuận",
+  "note": "Nho xanh, nho đỏ, táo gió.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af6f"
+  },
+  "name": "Trái Cây Nhập Khẩu Klever Fruit",
+  "contactPerson": "Phòng thu mua",
+  "phone": "02438313888",
+  "address": "Cầu Giấy, Hà Nội",
+  "taxCode": "0104567890",
+  "note": "Táo Envy, Nho ngón tay Mỹ, Cherry.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af70"
+  },
+  "name": "HTX Nhãn Lồng Hưng Yên",
+  "contactPerson": "Chị Thắm",
+  "phone": "0971222333",
+  "address": "Phố Hiến, Hưng Yên",
+  "note": "Nhãn lồng tiến vua.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af71"
+  },
+  "name": "Dưa Lưới Taka Nhật Bản",
+  "contactPerson": "Mr. Ken",
+  "phone": "0909000111",
+  "address": "Khu Nông nghiệp cao TP.HCM",
+  "note": "Dưa lưới Taki, Taka độ ngọt cao.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af72"
+  },
+  "name": "Vựa Chuối Laba Đà Lạt",
+  "contactPerson": "Anh Minh",
+  "phone": "0934555666",
+  "address": "Lâm Hà, Lâm Đồng",
+  "note": "Chuối Laba dẻo thơm.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af73"
+  },
+  "name": "Bơ Sáp Đắk Lắk 034",
+  "contactPerson": "Chị Hằng",
+  "phone": "0989666777",
+  "address": "Buôn Ma Thuột, Đắk Lắk",
+  "note": "Bơ 034, bơ Booth.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af74"
+  },
+  "name": "Công Ty CP Chăn Nuôi C.P. Việt Nam",
+  "contactPerson": "Phòng kinh doanh",
+  "phone": "02838123456",
+  "email": "sale@cp.com.vn",
+  "address": "KCN Biên Hòa 2, Đồng Nai",
+  "taxCode": "3600123456",
+  "note": "Thịt heo, thịt gà công nghiệp chuẩn sạch.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af75"
+  },
+  "name": "Thịt Bò Úc Nhập Khẩu Meat World",
+  "contactPerson": "Mr. Phillip",
+  "phone": "0909111222",
+  "address": "Quận 2, TP. HCM",
+  "taxCode": "0312345999",
+  "note": "Thịt bò Úc, bò Mỹ đông lạnh/tươi.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af76"
+  },
+  "name": "Trại Heo Rừng Lai F1",
+  "contactPerson": "Anh Dũng",
+  "phone": "0977888999",
+  "address": "Bình Phước",
+  "note": "Thịt heo rừng, heo mọi.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af77"
+  },
+  "name": "Công Ty Gà Đi bộ Ba Huân",
+  "contactPerson": "Chị Ba",
+  "phone": "02839999999",
+  "address": "Tân Bình, TP. HCM",
+  "note": "Gà ta thả vườn, trứng gà.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af78"
+  },
+  "name": "Vissan",
+  "contactPerson": "Tổng đài đặt hàng",
+  "phone": "02835556666",
+  "address": "Bình Thạnh, TP. HCM",
+  "taxCode": "0300123123",
+  "note": "Thịt heo, bò, thực phẩm chế biến sẵn.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af79"
+  },
+  "name": "Trại Dê Núi Ninh Bình",
+  "contactPerson": "Anh Thắng",
+  "phone": "0912000999",
+  "address": "Hoa Lư, Ninh Bình",
+  "note": "Thịt dê tươi nguyên con hoặc móc hàm.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af7a"
+  },
+  "name": "MeatDeli - Masan",
+  "contactPerson": "Kênh Horeca",
+  "phone": "18006060",
+  "address": "Hà Nam",
+  "note": "Thịt mát công nghệ Châu Âu.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af7b"
+  },
+  "name": "Công Ty TNHH San Hà",
+  "contactPerson": "Ms. Tuyết",
+  "phone": "0903999888",
+  "address": "Long An",
+  "note": "Chuyên cung cấp thịt gia cầm, gà, vịt.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af7c"
+  },
+  "name": "Bò Tơ Củ Chi Năm Sánh",
+  "contactPerson": "Anh Năm",
+  "phone": "0909555444",
+  "address": "Củ Chi, TP. HCM",
+  "note": "Thịt bò tơ tươi nóng.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af7d"
+  },
+  "name": "Trại Vịt Cỏ Vân Đình",
+  "contactPerson": "Bác Hùng",
+  "phone": "0914222333",
+  "address": "Ứng Hòa, Hà Nội",
+  "note": "Vịt cỏ tươi ngon.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af7e"
+  },
+  "name": "Thịt Trâu Gác Bếp Tây Bắc",
+  "contactPerson": "A Lử",
+  "phone": "0987333444",
+  "address": "Điện Biên",
+  "note": "Đặc sản thịt khô, lạp xưởng.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af7f"
+  },
+  "name": "Công Ty Thực Phẩm Đông Lạnh Kỷ Nguyên Mới",
+  "contactPerson": "Mr. Kevin",
+  "phone": "02437778888",
+  "address": "Hoàng Mai, Hà Nội",
+  "note": "Thịt cừu, thịt đà điểu.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af80"
+  },
+  "name": "Vựa Hải Sản Biển Đông",
+  "contactPerson": "Chị Thủy",
+  "phone": "0909123000",
+  "address": "Vũng Tàu",
+  "note": "Tôm, cua, ghẹ tươi sống.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af81"
+  },
+  "name": "Công Ty XNK Thủy Sản Minh Phú",
+  "contactPerson": "Phòng KD",
+  "phone": "02923888999",
+  "address": "Cà Mau",
+  "taxCode": "2000123456",
+  "note": "Tôm sú, tôm thẻ xuất khẩu.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af82"
+  },
+  "name": "Hải Sản Hoàng Gia",
+  "contactPerson": "Quản lý cửa hàng",
+  "phone": "0901234999",
+  "address": "Quận 7, TP. HCM",
+  "note": "King Crab, Tôm hùm Alaska nhập khẩu.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af83"
+  },
+  "name": "Vựa Cá Hồi Nauy Leroy",
+  "contactPerson": "Mr. Alex",
+  "phone": "0933111222",
+  "email": "order@leroyvn.com",
+  "address": "Tân Bình, TP. HCM",
+  "note": "Cá hồi Nauy fillet/nguyên con.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af84"
+  },
+  "name": "HTX Nuôi Trồng Thủy Sản Vân Đồn",
+  "contactPerson": "Anh Hải",
+  "phone": "0977222333",
+  "address": "Quảng Ninh",
+  "note": "Hàu sữa, tu hài.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af85"
+  },
+  "name": "Chợ Hải Sản Phan Thiết",
+  "contactPerson": "Cô Tư",
+  "phone": "0915333444",
+  "address": "Phan Thiết, Bình Thuận",
+  "note": "Mực một nắng, cá thu.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af86"
+  },
+  "name": "Công Ty TNHH Hải Sản Côn Đảo",
+  "contactPerson": "Anh Ba",
+  "phone": "0988444555",
+  "address": "Côn Đảo",
+  "note": "Cá mú, ốc vú nàng.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af87"
+  },
+  "name": "Vựa Cua Cà Mau Năm Căn",
+  "contactPerson": "Chú Sáu",
+  "phone": "0916777888",
+  "address": "Năm Căn, Cà Mau",
+  "note": "Cua thịt, cua gạch chính gốc.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af88"
+  },
+  "name": "Làng Chài Phú Quốc",
+  "contactPerson": "Anh Kiệt",
+  "phone": "0934888999",
+  "address": "Phú Quốc, Kiên Giang",
+  "note": "Ghẹ Hàm Ninh, Nhum biển.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af89"
+  },
+  "name": "Cá Tầm Sapa Group",
+  "contactPerson": "Ms. Linh",
+  "phone": "02143888777",
+  "address": "Sapa, Lào Cai",
+  "note": "Cá tầm, cá hồi nước lạnh tươi sống.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af8a"
+  },
+  "name": "Hải Sản Khô Nha Trang",
+  "contactPerson": "Chị Bích",
+  "phone": "0905123456",
+  "address": "Nha Trang, Khánh Hòa",
+  "note": "Tôm khô, mực khô, cá ngựa.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af8b"
+  },
+  "name": "Ốc Hương Thiên Nhiên",
+  "contactPerson": "Anh Tùng",
+  "phone": "0945111000",
+  "address": "Cam Ranh",
+  "note": "Chuyên cung cấp các loại ốc.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af8c"
+  },
+  "name": "Hải Sản Tươi Sống Đồ Sơn",
+  "contactPerson": "Bác Cường",
+  "phone": "0913222333",
+  "address": "Đồ Sơn, Hải Phòng",
+  "note": "Bề bề, mực sim.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af8d"
+  },
+  "name": "Vinamilk",
+  "contactPerson": "Đại diện kinh doanh",
+  "phone": "19006066",
+  "email": "vinamilk@vinamilk.com.vn",
+  "address": "Quận 7, TP. HCM",
+  "taxCode": "0300588569",
+  "note": "Sữa tươi, sữa chua, phô mai.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af8e"
+  },
+  "name": "TH True Milk",
+  "contactPerson": "Bộ phận bán hàng",
+  "phone": "1800545440",
+  "address": "Nghệ An",
+  "note": "Sữa tươi sạch, bơ, kem.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af8f"
+  },
+  "name": "Trại Trứng Gà Ba Huân",
+  "contactPerson": "Phòng kinh doanh",
+  "phone": "02839991111",
+  "address": "Bình Dương",
+  "note": "Trứng gà, trứng vịt, trứng muối.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af90"
+  },
+  "name": "Sữa Đà Lạt Milk",
+  "contactPerson": "Mr. Khoa",
+  "phone": "02633888999",
+  "address": "Đơn Dương, Lâm Đồng",
+  "note": "Sữa thanh trùng, sữa chua ăn.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af91"
+  },
+  "name": "Công Ty Sữa Mộc Châu",
+  "contactPerson": "Chị Hương",
+  "phone": "02437776666",
+  "address": "Mộc Châu, Sơn La",
+  "note": "Sữa tươi thảo nguyên.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af92"
+  },
+  "name": "Trứng Vịt Chạy Đồng Miền Tây",
+  "contactPerson": "Anh Út",
+  "phone": "0909333222",
+  "address": "Đồng Tháp",
+  "note": "Trứng vịt lộn, trứng vịt đồng.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af93"
+  },
+  "name": "V.Food (Trứng Vĩnh Thành Đạt)",
+  "contactPerson": "Sale Admin",
+  "phone": "02837778888",
+  "address": "Quận 12, TP. HCM",
+  "note": "Trứng gà sạch đóng hộp.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af94"
+  },
+  "name": "Phô Mai Nhập Khẩu Anchor",
+  "contactPerson": "Đại lý phân phối Việt Nam",
+  "phone": "02839990000",
+  "address": "Quận 1, TP. HCM",
+  "note": "Bơ, phô mai New Zealand.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af95"
+  },
+  "name": "Sữa Hạt Nutri Milk",
+  "contactPerson": "Chị Vy",
+  "phone": "0934555111",
+  "address": "Thủ Đức, TP. HCM",
+  "note": "Sữa đậu nành, sữa bắp, sữa hạt sen.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af96"
+  },
+  "name": "Trứng Cút Lộc Phát",
+  "contactPerson": "Anh Lộc",
+  "phone": "0912444555",
+  "address": "Biên Hòa, Đồng Nai",
+  "note": "Trứng cút thường, trứng cút lộn.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af97"
+  },
+  "name": "Sữa Long Thành Lothamilk",
+  "contactPerson": "Phòng KD",
+  "phone": "02513888777",
+  "address": "Long Thành, Đồng Nai",
+  "note": "Sữa tươi thanh trùng.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af98"
+  },
+  "name": "Trứng Gà Ác Tiềm",
+  "contactPerson": "Cô Sáu",
+  "phone": "0903222111",
+  "address": "Tiền Giang",
+  "note": "Trứng gà ác bổ dưỡng.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af99"
+  },
+  "name": "Tổng Công Ty Lương Thực Miền Nam (Vinafood II)",
+  "contactPerson": "Phòng XNK",
+  "phone": "02838230000",
+  "address": "Quận 3, TP. HCM",
+  "taxCode": "0300613198",
+  "note": "Gạo xuất khẩu, gạo trắng các loại.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af9a"
+  },
+  "name": "Gạo Ông Cua (ST25)",
+  "contactPerson": "DNTN Hồ Quang Trí",
+  "phone": "02993822222",
+  "address": "Sóc Trăng",
+  "note": "Gạo ST25 ngon nhất thế giới.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af9b"
+  },
+  "name": "Công Ty Gạo Hoa Lúa",
+  "contactPerson": "Chị Thúy",
+  "phone": "0909888999",
+  "address": "Tân Bình, TP. HCM",
+  "note": "Gạo sạch đóng túi.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af9c"
+  },
+  "name": "Vựa Gạo Nàng Thơm Chợ Đào",
+  "contactPerson": "Chú Bảy",
+  "phone": "0913444555",
+  "address": "Cần Đước, Long An",
+  "note": "Gạo Nàng Thơm chính gốc.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af9d"
+  },
+  "name": "Ngũ Cốc Dinh Dưỡng Granola House",
+  "contactPerson": "Ms. Kate",
+  "phone": "0933777888",
+  "address": "Quận 2, TP. HCM",
+  "note": "Yến mạch, hạt chia, granola.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af9e"
+  },
+  "name": "Đậu Nông Sản Tây Nguyên",
+  "contactPerson": "Anh Y Y",
+  "phone": "0977111222",
+  "address": "Gia Lai",
+  "note": "Đậu xanh, đậu đen, đậu đỏ.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625af9f"
+  },
+  "name": "Gạo Lứt Huyết Rồng",
+  "contactPerson": "Chị Mai",
+  "phone": "0903555666",
+  "address": "Đồng Tháp",
+  "note": "Gạo lứt đỏ cho người ăn kiêng.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625afa0"
+  },
+  "name": "Bột Mì Meizan",
+  "contactPerson": "Đại lý cấp 1",
+  "phone": "02838999888",
+  "address": "KCN Cái Lân",
+  "note": "Bột mì làm bánh.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625afa1"
+  },
+  "name": "Gạo Nếp Cái Hoa Vàng Kinh Môn",
+  "contactPerson": "Bác Tám",
+  "phone": "0912888999",
+  "address": "Hải Dương",
+  "note": "Nếp cái hoa vàng nấu xôi.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625afa2"
+  },
+  "name": "Hạt Sen Tươi Đồng Tháp Mười",
+  "contactPerson": "Cô Tư",
+  "phone": "0945666777",
+  "address": "Tháp Mười",
+  "note": "Hạt sen tươi, tim sen.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625afa3"
+  },
+  "name": "Ngô Nếp Sấy Giòn",
+  "contactPerson": "Cơ sở sản xuất Hùng Linh",
+  "phone": "0988000111",
+  "address": "Hà Nội",
+  "note": "Ngô cay, ngô sấy.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625afa4"
+  },
+  "name": "Gạo Nhật Sushi",
+  "contactPerson": "Công Ty Tokyo Food",
+  "phone": "02837776666",
+  "address": "Bình Dương",
+  "note": "Gạo Japonica làm sushi.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625afa5"
+  },
+  "name": "Công Ty CP Hàng Tiêu Dùng Masan (Chin-su)",
+  "contactPerson": "Sale Manager",
+  "phone": "02862563862",
+  "address": "Quận 1, TP. HCM",
+  "note": "Nước mắm, nước tương, tương ớt.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625afa6"
+  },
+  "name": "Ajinomoto Việt Nam",
+  "contactPerson": "Phòng CSKH",
+  "phone": "02839301929",
+  "address": "Biên Hòa, Đồng Nai",
+  "note": "Bột ngọt, hạt nêm Aji-ngon.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625afa7"
+  },
+  "name": "Nước Mắm Phú Quốc Khải Hoàn",
+  "contactPerson": "Bà Khải",
+  "phone": "02973848555",
+  "address": "Phú Quốc",
+  "note": "Nước mắm truyền thống độ đạm cao.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625afa8"
+  },
+  "name": "Tiêu Đen Chư Sê",
+  "contactPerson": "Anh Hùng",
+  "phone": "0977999888",
+  "address": "Gia Lai",
+  "note": "Hồ tiêu hạt, tiêu xay.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625afa9"
+  },
+  "name": "Cholimex Food",
+  "contactPerson": "Phòng KD",
+  "phone": "02837653333",
+  "address": "Bình Chánh, TP. HCM",
+  "note": "Sa tế, sốt ướp thịt nướng.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625afaa"
+  },
+  "name": "Muối Tôm Tây Ninh Dh Foods",
+  "contactPerson": "Sale Admin",
+  "phone": "02839225941",
+  "address": "Tân Bình, TP. HCM",
+  "note": "Muối tôm, muối ớt chanh, gia vị vùng miền.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625afab"
+  },
+  "name": "Đường Biên Hòa",
+  "contactPerson": "Đại lý phân phối",
+  "phone": "02513836199",
+  "address": "Đồng Nai",
+  "note": "Đường tinh luyện, đường phèn.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625afac"
+  },
+  "name": "Dầu Ăn Tường An",
+  "contactPerson": "Phòng bán hàng",
+  "phone": "02838237777",
+  "address": "Quận 1, TP. HCM",
+  "note": "Dầu thực vật, dầu mè.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625afad"
+  },
+  "name": "Tương Bần Hưng Yên",
+  "contactPerson": "Cơ sở Bần",
+  "phone": "0913555444",
+  "address": "Mỹ Hào, Hưng Yên",
+  "note": "Tương bần truyền thống.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625afae"
+  },
+  "name": "Nước Mắm Cát Hải",
+  "contactPerson": "Ông Hải",
+  "phone": "02253888999",
+  "address": "Hải Phòng",
+  "note": "Nước mắm Cát Hải.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625afaf"
+  },
+  "name": "Hành Tỏi Lý Sơn",
+  "contactPerson": "Cô Bảy",
+  "phone": "0905222333",
+  "address": "Đảo Lý Sơn, Quảng Ngãi",
+  "note": "Tỏi cô đơn, hành tím.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625afb0"
+  },
+  "name": "Mắm Tôm Hậu Lộc",
+  "contactPerson": "Bà Tám",
+  "phone": "0912111222",
+  "address": "Thanh Hóa",
+  "note": "Mắm tôm, mắm tép.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625afb1"
+  },
+  "name": "Bột Nghệ Hưng Yên",
+  "contactPerson": "Chị Lan",
+  "phone": "0986777888",
+  "address": "Khoái Châu, Hưng Yên",
+  "note": "Tinh bột nghệ vàng/đỏ.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625afb2"
+  },
+  "name": "Suntory PepsiCo Việt Nam",
+  "contactPerson": "Kênh đại lý",
+  "phone": "02838219499",
+  "address": "Quận 1, TP. HCM",
+  "taxCode": "0300816663",
+  "note": "Pepsi, 7Up, Aquafina, Trà Ô Long.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625afb3"
+  },
+  "name": "Coca-Cola Việt Nam",
+  "contactPerson": "Hotline đặt hàng",
+  "phone": "1900555555",
+  "address": "Thủ Đức, TP. HCM",
+  "note": "Coke, Sprite, Fanta, Dasani.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625afb4"
+  },
+  "name": "Trung Nguyên Legend",
+  "contactPerson": "Phòng KD Cà phê",
+  "phone": "02839257777",
+  "address": "Quận 3, TP. HCM",
+  "note": "Cà phê G7, cà phê rang xay.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625afb5"
+  },
+  "name": "Bia Sài Gòn (Sabeco)",
+  "contactPerson": "Đại lý Bia",
+  "phone": "02838294083",
+  "address": "Quận 1, TP. HCM",
+  "note": "Bia 333, Saigon Lager/Special.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625afb6"
+  },
+  "name": "Heineken Việt Nam",
+  "contactPerson": "Phòng bán hàng",
+  "phone": "02838222755",
+  "address": "Quận 1, TP. HCM",
+  "note": "Heineken, Tiger, Larue.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625afb7"
+  },
+  "name": "Trà Phúc Long",
+  "contactPerson": "Bộ phận B2B",
+  "phone": "02862630377",
+  "address": "Bình Chánh, TP. HCM",
+  "note": "Trà đen, trà lài, trà túi lọc.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625afb8"
+  },
+  "name": "Vang Đà Lạt (Ladofoods)",
+  "contactPerson": "Mr. Sơn",
+  "phone": "02633822437",
+  "address": "Đà Lạt",
+  "note": "Rượu vang đỏ/trắng Đà Lạt.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625afb9"
+  },
+  "name": "Nước Khoáng Lavie",
+  "contactPerson": "Tổng đài",
+  "phone": "19001906",
+  "address": "Long An",
+  "note": "Nước khoáng thiên nhiên.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625afba"
+  },
+  "name": "Trà Thái Nguyên Tân Cương",
+  "contactPerson": "Bác Ấm",
+  "phone": "0912555666",
+  "address": "Thái Nguyên",
+  "note": "Trà móc câu, trà búp.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625afbb"
+  },
+  "name": "Nước Ép Trái Cây Le Fruit",
+  "contactPerson": "Ms. An",
+  "phone": "02923888777",
+  "address": "Cần Thơ",
+  "note": "Nước ép ổi, dứa, sơ ri tự nhiên.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625afbc"
+  },
+  "name": "Cà Phê Cầu Đất Farm",
+  "contactPerson": "Anh Dũng",
+  "phone": "0909444333",
+  "address": "Đà Lạt",
+  "note": "Cà phê Arabica Cầu Đất.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625afbd"
+  },
+  "name": "Rượu Mẫu Sơn",
+  "contactPerson": "HTX Mẫu Sơn",
+  "phone": "02053888999",
+  "address": "Lạng Sơn",
+  "note": "Rượu nấu từ lá rừng.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625afbe"
+  },
+  "name": "Nước Yến Khánh Hòa (Sanest)",
+  "contactPerson": "Đại lý phân phối",
+  "phone": "02583822486",
+  "address": "Nha Trang",
+  "note": "Nước yến sào cao cấp.",
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce2bcf4a6b8c0e625afbf"
+  },
+  "name": "Nước Dừa Xiêm Bến Tre Đóng Lon",
+  "contactPerson": "Cty Cocoxim",
+  "phone": "02753822333",
+  "address": "Bến Tre",
+  "note": "Nước dừa tươi đóng hộp.",
+  "isDeleted": false
+}]

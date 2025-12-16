@@ -1,0 +1,200 @@
+[{
+  "_id": {
+    "$oid": "693ce436f4a6b8c0e625afc1"
+  },
+  "name": "Ban Giám Đốc (Board of Directors)",
+  "description": "Cơ quan quản lý cao nhất, chịu trách nhiệm hoạch định chiến lược và chỉ đạo chung.",
+  "manager": null,
+  "isActive": true,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce436f4a6b8c0e625afc2"
+  },
+  "name": "Phòng Nhân Sự (Human Resources)",
+  "description": "Quản lý tuyển dụng, đào tạo, lương thưởng và phúc lợi cho nhân viên.",
+  "manager": null,
+  "isActive": true,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce436f4a6b8c0e625afc3"
+  },
+  "name": "Phòng Tài Chính - Kế Toán (Finance & Accounting)",
+  "description": "Quản lý dòng tiền, báo cáo tài chính, thuế và kiểm soát chi phí.",
+  "manager": null,
+  "isActive": true,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce436f4a6b8c0e625afc4"
+  },
+  "name": "Phòng Công Nghệ Thông Tin (IT Dept)",
+  "description": "Phát triển và bảo trì hệ thống phần mềm, hạ tầng mạng và bảo mật thông tin.",
+  "manager": null,
+  "isActive": true,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce436f4a6b8c0e625afc5"
+  },
+  "name": "Phòng Kinh Doanh (Sales Department)",
+  "description": "Tìm kiếm khách hàng, phát triển thị trường và đẩy mạnh doanh số bán hàng.",
+  "manager": null,
+  "isActive": true,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce436f4a6b8c0e625afc6"
+  },
+  "name": "Phòng Marketing (Tiếp Thị)",
+  "description": "Nghiên cứu thị trường, quảng bá thương hiệu và chạy các chiến dịch khuyến mãi.",
+  "manager": null,
+  "isActive": true,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce436f4a6b8c0e625afc7"
+  },
+  "name": "Phòng Thu Mua (Purchasing / Procurement)",
+  "description": "Tìm kiếm nhà cung cấp, đàm phán giá cả và nhập nguồn hàng (rau củ, thực phẩm).",
+  "manager": null,
+  "isActive": true,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce436f4a6b8c0e625afc8"
+  },
+  "name": "Phòng Kho Vận (Logistics & Warehouse)",
+  "description": "Quản lý nhập xuất tồn kho, đóng gói và điều phối vận chuyển hàng hóa.",
+  "manager": null,
+  "isActive": true,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce436f4a6b8c0e625afc9"
+  },
+  "name": "Phòng Chăm Sóc Khách Hàng (Customer Service)",
+  "description": "Tiếp nhận phản hồi, giải quyết khiếu nại và hỗ trợ khách hàng sau mua.",
+  "manager": null,
+  "isActive": true,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce436f4a6b8c0e625afca"
+  },
+  "name": "Phòng Quản Lý Chất Lượng (QA/QC)",
+  "description": "Kiểm tra chất lượng đầu vào và đầu ra của thực phẩm, đảm bảo vệ sinh ATTP.",
+  "manager": null,
+  "isActive": true,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce436f4a6b8c0e625afcb"
+  },
+  "name": "Phòng Nghiên Cứu & Phát Triển (R&D)",
+  "description": "Nghiên cứu sản phẩm mới, cải tiến quy trình bảo quản thực phẩm.",
+  "manager": null,
+  "isActive": true,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce436f4a6b8c0e625afcc"
+  },
+  "name": "Phòng Hành Chính Tổng Hợp (Administration)",
+  "description": "Quản lý văn thư, cơ sở vật chất văn phòng và các công việc hành chính giấy tờ.",
+  "manager": null,
+  "isActive": true,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce436f4a6b8c0e625afcd"
+  },
+  "name": "Phòng Pháp Chế (Legal Department)",
+  "description": "Tư vấn luật, soạn thảo hợp đồng và đảm bảo tính pháp lý cho doanh nghiệp.",
+  "manager": null,
+  "isActive": true,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce436f4a6b8c0e625afce"
+  },
+  "name": "Phòng Thương Mại Điện Tử (E-commerce)",
+  "description": "Vận hành website bán hàng, quản lý các gian hàng trên sàn TMĐT.",
+  "manager": null,
+  "isActive": true,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce436f4a6b8c0e625afcf"
+  },
+  "name": "Phòng Vận Hành Cửa Hàng (Store Operations)",
+  "description": "Quản lý hoạt động hàng ngày của chuỗi cửa hàng bán lẻ trực tiếp.",
+  "manager": null,
+  "isActive": true,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce436f4a6b8c0e625afd0"
+  },
+  "name": "Phòng Bảo Trì & Kỹ Thuật (Maintenance)",
+  "description": "Bảo trì hệ thống điện, nước, máy lạnh kho bảo quản và trang thiết bị.",
+  "manager": null,
+  "isActive": true,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce436f4a6b8c0e625afd1"
+  },
+  "name": "Phòng Kiểm Toán Nội Bộ (Internal Audit)",
+  "description": "Kiểm soát rủi ro, đánh giá tính tuân thủ quy trình của các phòng ban.",
+  "manager": null,
+  "isActive": true,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce436f4a6b8c0e625afd2"
+  },
+  "name": "Phòng Truyền Thông & Sáng Tạo (Content & Creative)",
+  "description": "Sản xuất hình ảnh, video, nội dung truyền thông cho thương hiệu.",
+  "manager": null,
+  "isActive": true,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce436f4a6b8c0e625afd3"
+  },
+  "name": "Phòng Đối Ngoại & Hợp Tác (Partnership)",
+  "description": "Xây dựng mối quan hệ với đối tác chiến lược, nhà đầu tư và cơ quan báo chí.",
+  "manager": null,
+  "isActive": true,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "693ce436f4a6b8c0e625afd4"
+  },
+  "name": "Tổ Giao Nhận (Delivery Team)",
+  "description": "Đội ngũ shipper và điều phối giao hàng chặng cuối đến tay khách hàng.",
+  "manager": null,
+  "isActive": true,
+  "isDeleted": false
+}]

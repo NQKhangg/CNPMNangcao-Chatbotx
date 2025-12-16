@@ -1,0 +1,2446 @@
+[{
+  "_id": {
+    "$oid": "69342d28867aca05f3022671"
+  },
+  "name": "Nguyễn Khánh Nam",
+  "email": "nguyen.khanh.nam.kh88@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021fa1"
+  },
+  "subject": "Sản phẩm bị dập nát",
+  "message": "Mình vừa nhận được thùng táo nhưng có 2 quả bị dập, shop hỗ trợ đổi không?",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-10-08T03:00:17.163Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-08T03:00:17.163Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f3022672"
+  },
+  "name": "Đặng Thị Hương",
+  "email": "ang.thi.huong.kh100@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021fad"
+  },
+  "subject": "Góp ý về thái độ shipper",
+  "message": "Shipper giao hàng sáng nay thái độ rất khó chịu, mong shop nhắc nhở.",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-11-09T17:51:58.460Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-09T17:51:58.460Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f3022673"
+  },
+  "name": "Hồ Thị Hương",
+  "email": "ho.thi.huong.kh94@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021fa7"
+  },
+  "subject": "Hỏi về tình trạng đơn hàng",
+  "message": "Cho mình hỏi đơn hàng #ORD-202512 đặt hôm qua bao giờ giao ạ?",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f32"
+  },
+  "replyMessage": "Chào bạn, đơn hàng đang trên đường giao, bạn vui lòng chờ thêm chút nhé.",
+  "repliedAt": {
+    "$date": "2025-12-01T15:10:33.166Z"
+  },
+  "createdAt": {
+    "$date": "2025-12-01T01:10:33.166Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-01T15:10:33.166Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f3022674"
+  },
+  "name": "Võ Văn Dũng",
+  "email": "vo.van.dung.kh53@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f7e"
+  },
+  "subject": "Sản phẩm bị dập nát",
+  "message": "Mình vừa nhận được thùng táo nhưng có 2 quả bị dập, shop hỗ trợ đổi không?",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f41"
+  },
+  "replyMessage": "Shop rất xin lỗi về sự cố này, shop sẽ hoàn tiền vào ví cho bạn ạ.",
+  "repliedAt": {
+    "$date": "2025-09-10T17:19:54.190Z"
+  },
+  "createdAt": {
+    "$date": "2025-09-10T00:19:54.190Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-10T17:19:54.190Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f3022675"
+  },
+  "name": "Lê Minh Bắc",
+  "email": "le.minh.bac.kh34@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f6b"
+  },
+  "subject": "Hỏi về chính sách sỉ",
+  "message": "Mình muốn nhập số lượng lớn về bán lại, shop có giá sỉ không?",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f36"
+  },
+  "replyMessage": "Dạ bộ phận kinh doanh sẽ gửi email báo giá cho bạn trong 24h tới.",
+  "repliedAt": {
+    "$date": "2025-08-24T19:06:38.826Z"
+  },
+  "createdAt": {
+    "$date": "2025-08-23T21:06:38.826Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-24T19:06:38.826Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f3022676"
+  },
+  "name": "Trần Mạnh Tùng",
+  "email": "tran.manh.tung.kh97@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021faa"
+  },
+  "subject": "Muốn hợp tác phân phối",
+  "message": "Tôi là chủ nông trại tại Đà Lạt, muốn gửi hồ sơ chào hàng rau củ sạch.",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f43"
+  },
+  "replyMessage": "Shop rất xin lỗi về sự cố này, shop sẽ hoàn tiền vào ví cho bạn ạ.",
+  "repliedAt": {
+    "$date": "2025-08-10T04:52:27.054Z"
+  },
+  "createdAt": {
+    "$date": "2025-08-09T21:52:27.054Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-10T04:52:27.054Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f3022677"
+  },
+  "name": "Khách vãng lai 6",
+  "email": "guest.visitor.6@example.com",
+  "customerId": null,
+  "subject": "Muốn hợp tác phân phối",
+  "message": "Tôi là chủ nông trại tại Đà Lạt, muốn gửi hồ sơ chào hàng rau củ sạch.",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-10-30T11:49:19.116Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-30T11:49:19.116Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f3022678"
+  },
+  "name": "Khách vãng lai 7",
+  "email": "guest.visitor.7@example.com",
+  "customerId": null,
+  "subject": "Sản phẩm bị dập nát",
+  "message": "Mình vừa nhận được thùng táo nhưng có 2 quả bị dập, shop hỗ trợ đổi không?",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-11-24T16:15:59.337Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-24T16:15:59.337Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f3022679"
+  },
+  "name": "Phan Thị Hương",
+  "email": "phan.thi.huong.kh60@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f85"
+  },
+  "subject": "Hỏi về chính sách sỉ",
+  "message": "Mình muốn nhập số lượng lớn về bán lại, shop có giá sỉ không?",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-11-04T12:31:09.681Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-04T12:31:09.681Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f302267a"
+  },
+  "name": "Đặng Thị Sơn",
+  "email": "ang.thi.son.kh90@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021fa3"
+  },
+  "subject": "Hỏi về chính sách sỉ",
+  "message": "Mình muốn nhập số lượng lớn về bán lại, shop có giá sỉ không?",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-10-14T11:32:00.510Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-14T11:32:00.510Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f302267b"
+  },
+  "name": "Bùi Thị Cúc",
+  "email": "bui.thi.cuc.kh68@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f8d"
+  },
+  "subject": "Hỏi về tình trạng đơn hàng",
+  "message": "Cho mình hỏi đơn hàng #ORD-202512 đặt hôm qua bao giờ giao ạ?",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-08-12T13:00:22.674Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-12T13:00:22.674Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f302267c"
+  },
+  "name": "Khách vãng lai 11",
+  "email": "guest.visitor.11@example.com",
+  "customerId": null,
+  "subject": "Yêu cầu xuất hóa đơn VAT",
+  "message": "Đơn hàng vừa rồi mình quên điền thông tin xuất hóa đơn công ty.",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f36"
+  },
+  "replyMessage": "Chào bạn, shop đã kiểm tra và sẽ xử lý ngay cho bạn ạ.",
+  "repliedAt": {
+    "$date": "2025-08-14T18:42:01.892Z"
+  },
+  "createdAt": {
+    "$date": "2025-08-14T14:42:01.892Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-14T18:42:01.892Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f302267d"
+  },
+  "name": "Lê Thị Cường",
+  "email": "le.thi.cuong.kh70@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f8f"
+  },
+  "subject": "Hàng không đúng mô tả",
+  "message": "Mình đặt cam sành nhưng nhận được cam xoàn, shop kiểm tra lại.",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-09-29T10:38:46.916Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-29T10:38:46.916Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f302267e"
+  },
+  "name": "Bùi Hoài Sơn",
+  "email": "bui.hoai.son.kh28@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f65"
+  },
+  "subject": "Yêu cầu xuất hóa đơn VAT",
+  "message": "Đơn hàng vừa rồi mình quên điền thông tin xuất hóa đơn công ty.",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f45"
+  },
+  "replyMessage": "Chào bạn, đơn hàng đang trên đường giao, bạn vui lòng chờ thêm chút nhé.",
+  "repliedAt": {
+    "$date": "2025-10-29T17:56:15.954Z"
+  },
+  "createdAt": {
+    "$date": "2025-10-29T02:56:15.954Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-29T17:56:15.954Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f302267f"
+  },
+  "name": "Đỗ Đức Lan",
+  "email": "o.uc.lan.kh27@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f64"
+  },
+  "subject": "Quên mật khẩu",
+  "message": "Mình không nhận được email lấy lại mật khẩu, admin kiểm tra giúp.",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f48"
+  },
+  "replyMessage": "Dạ bộ phận kinh doanh sẽ gửi email báo giá cho bạn trong 24h tới.",
+  "repliedAt": {
+    "$date": "2025-10-24T09:37:49.963Z"
+  },
+  "createdAt": {
+    "$date": "2025-10-23T15:37:49.963Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-24T09:37:49.963Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f3022680"
+  },
+  "name": "Khách vãng lai 15",
+  "email": "guest.visitor.15@example.com",
+  "customerId": null,
+  "subject": "Góp ý về thái độ shipper",
+  "message": "Shipper giao hàng sáng nay thái độ rất khó chịu, mong shop nhắc nhở.",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-09-02T20:00:16.743Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-02T20:00:16.743Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f3022681"
+  },
+  "name": "Khách vãng lai 16",
+  "email": "guest.visitor.16@example.com",
+  "customerId": null,
+  "subject": "Quên mật khẩu",
+  "message": "Mình không nhận được email lấy lại mật khẩu, admin kiểm tra giúp.",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f34"
+  },
+  "replyMessage": "Dạ bộ phận kinh doanh sẽ gửi email báo giá cho bạn trong 24h tới.",
+  "repliedAt": {
+    "$date": "2025-10-05T07:52:02.845Z"
+  },
+  "createdAt": {
+    "$date": "2025-10-04T13:52:02.845Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-05T07:52:02.845Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f3022682"
+  },
+  "name": "Đặng Mạnh Cúc",
+  "email": "ang.manh.cuc.kh61@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f86"
+  },
+  "subject": "Hỏi về tình trạng đơn hàng",
+  "message": "Cho mình hỏi đơn hàng #ORD-202512 đặt hôm qua bao giờ giao ạ?",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-09-19T06:31:13.814Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-19T06:31:13.814Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f3022683"
+  },
+  "name": "Huỳnh Khánh Dũng",
+  "email": "huynh.khanh.dung.kh3@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f4c"
+  },
+  "subject": "Quên mật khẩu",
+  "message": "Mình không nhận được email lấy lại mật khẩu, admin kiểm tra giúp.",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-07-16T08:21:21.552Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-16T08:21:21.552Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f3022684"
+  },
+  "name": "Đặng Thị Phượng",
+  "email": "ang.thi.phuong.kh49@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f7a"
+  },
+  "subject": "Muốn hợp tác phân phối",
+  "message": "Tôi là chủ nông trại tại Đà Lạt, muốn gửi hồ sơ chào hàng rau củ sạch.",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-07-17T23:08:38.074Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T23:08:38.074Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f3022685"
+  },
+  "name": "Huỳnh Thị Cúc",
+  "email": "huynh.thi.cuc.kh23@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f60"
+  },
+  "subject": "Hàng không đúng mô tả",
+  "message": "Mình đặt cam sành nhưng nhận được cam xoàn, shop kiểm tra lại.",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f49"
+  },
+  "replyMessage": "Dạ bộ phận kinh doanh sẽ gửi email báo giá cho bạn trong 24h tới.",
+  "repliedAt": {
+    "$date": "2025-08-19T21:25:55.133Z"
+  },
+  "createdAt": {
+    "$date": "2025-08-19T09:25:55.133Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-19T21:25:55.133Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f3022686"
+  },
+  "name": "Trần Thị Cường",
+  "email": "tran.thi.cuong.kh69@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f8e"
+  },
+  "subject": "Quên mật khẩu",
+  "message": "Mình không nhận được email lấy lại mật khẩu, admin kiểm tra giúp.",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f36"
+  },
+  "replyMessage": "Chào bạn, đơn hàng đang trên đường giao, bạn vui lòng chờ thêm chút nhé.",
+  "repliedAt": {
+    "$date": "2025-08-02T23:04:44.869Z"
+  },
+  "createdAt": {
+    "$date": "2025-08-02T20:04:44.869Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-02T23:04:44.869Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f3022687"
+  },
+  "name": "Vũ Gia Phượng",
+  "email": "vu.gia.phuong.kh89@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021fa2"
+  },
+  "subject": "Hỏi về tình trạng đơn hàng",
+  "message": "Cho mình hỏi đơn hàng #ORD-202512 đặt hôm qua bao giờ giao ạ?",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f32"
+  },
+  "replyMessage": "Shop rất xin lỗi về sự cố này, shop sẽ hoàn tiền vào ví cho bạn ạ.",
+  "repliedAt": {
+    "$date": "2025-11-21T13:01:44.564Z"
+  },
+  "createdAt": {
+    "$date": "2025-11-20T16:01:44.564Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T13:01:44.564Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f3022688"
+  },
+  "name": "Khách vãng lai 23",
+  "email": "guest.visitor.23@example.com",
+  "customerId": null,
+  "subject": "Muốn hợp tác phân phối",
+  "message": "Tôi là chủ nông trại tại Đà Lạt, muốn gửi hồ sơ chào hàng rau củ sạch.",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f48"
+  },
+  "replyMessage": "Chào bạn, shop đã kiểm tra và sẽ xử lý ngay cho bạn ạ.",
+  "repliedAt": {
+    "$date": "2025-10-12T08:55:14.236Z"
+  },
+  "createdAt": {
+    "$date": "2025-10-11T09:55:14.236Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-12T08:55:14.236Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f3022689"
+  },
+  "name": "Phan Thị Hương",
+  "email": "phan.thi.huong.kh60@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f85"
+  },
+  "subject": "Hỏi về tình trạng đơn hàng",
+  "message": "Cho mình hỏi đơn hàng #ORD-202512 đặt hôm qua bao giờ giao ạ?",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-09-19T11:43:20.008Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-19T11:43:20.008Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f302268a"
+  },
+  "name": "Nguyễn Văn Hoa",
+  "email": "nguyen.van.hoa.kh84@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f9d"
+  },
+  "subject": "Sản phẩm bị dập nát",
+  "message": "Mình vừa nhận được thùng táo nhưng có 2 quả bị dập, shop hỗ trợ đổi không?",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f39"
+  },
+  "replyMessage": "Shop rất xin lỗi về sự cố này, shop sẽ hoàn tiền vào ví cho bạn ạ.",
+  "repliedAt": {
+    "$date": "2025-12-05T08:49:29.573Z"
+  },
+  "createdAt": {
+    "$date": "2025-12-05T07:49:29.573Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-05T08:49:29.573Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f302268b"
+  },
+  "name": "Phan Ngọc Cường",
+  "email": "phan.ngoc.cuong.kh74@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f93"
+  },
+  "subject": "Sản phẩm bị dập nát",
+  "message": "Mình vừa nhận được thùng táo nhưng có 2 quả bị dập, shop hỗ trợ đổi không?",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f32"
+  },
+  "replyMessage": "Chào bạn, shop đã kiểm tra và sẽ xử lý ngay cho bạn ạ.",
+  "repliedAt": {
+    "$date": "2025-08-23T20:29:17.960Z"
+  },
+  "createdAt": {
+    "$date": "2025-08-23T09:29:17.960Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-23T20:29:17.960Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f302268c"
+  },
+  "name": "Khách vãng lai 27",
+  "email": "guest.visitor.27@example.com",
+  "customerId": null,
+  "subject": "Muốn hợp tác phân phối",
+  "message": "Tôi là chủ nông trại tại Đà Lạt, muốn gửi hồ sơ chào hàng rau củ sạch.",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f38"
+  },
+  "replyMessage": "Cảm ơn bạn đã phản hồi, bên mình sẽ liên hệ lại qua điện thoại nhé.",
+  "repliedAt": {
+    "$date": "2025-11-27T10:04:49.536Z"
+  },
+  "createdAt": {
+    "$date": "2025-11-27T04:04:49.536Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-27T10:04:49.536Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f302268d"
+  },
+  "name": "Đặng Mạnh Cúc",
+  "email": "ang.manh.cuc.kh61@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f86"
+  },
+  "subject": "Hàng không đúng mô tả",
+  "message": "Mình đặt cam sành nhưng nhận được cam xoàn, shop kiểm tra lại.",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-08-24T16:53:34.157Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-24T16:53:34.157Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f302268e"
+  },
+  "name": "Khách vãng lai 29",
+  "email": "guest.visitor.29@example.com",
+  "customerId": null,
+  "subject": "Yêu cầu xuất hóa đơn VAT",
+  "message": "Đơn hàng vừa rồi mình quên điền thông tin xuất hóa đơn công ty.",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-08-26T07:21:45.895Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-26T07:21:45.895Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f302268f"
+  },
+  "name": "Lê Thị Cúc",
+  "email": "le.thi.cuc.kh93@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021fa6"
+  },
+  "subject": "Muốn hợp tác phân phối",
+  "message": "Tôi là chủ nông trại tại Đà Lạt, muốn gửi hồ sơ chào hàng rau củ sạch.",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f33"
+  },
+  "replyMessage": "Cảm ơn bạn đã phản hồi, bên mình sẽ liên hệ lại qua điện thoại nhé.",
+  "repliedAt": {
+    "$date": "2025-08-23T05:47:53.965Z"
+  },
+  "createdAt": {
+    "$date": "2025-08-23T03:47:53.965Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-23T05:47:53.965Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f3022690"
+  },
+  "name": "Ngô Thanh Hương",
+  "email": "ngo.thanh.huong.kh8@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f51"
+  },
+  "subject": "Góp ý về thái độ shipper",
+  "message": "Shipper giao hàng sáng nay thái độ rất khó chịu, mong shop nhắc nhở.",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f34"
+  },
+  "replyMessage": "Dạ bộ phận kinh doanh sẽ gửi email báo giá cho bạn trong 24h tới.",
+  "repliedAt": {
+    "$date": "2025-07-26T14:26:17.702Z"
+  },
+  "createdAt": {
+    "$date": "2025-07-26T13:26:17.702Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-26T14:26:17.702Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f3022691"
+  },
+  "name": "Bùi Quốc Hùng",
+  "email": "bui.quoc.hung.kh19@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f5c"
+  },
+  "subject": "Hỏi về tình trạng đơn hàng",
+  "message": "Cho mình hỏi đơn hàng #ORD-202512 đặt hôm qua bao giờ giao ạ?",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-08-19T20:09:15.788Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-19T20:09:15.788Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f3022692"
+  },
+  "name": "Vũ Minh Sơn",
+  "email": "vu.minh.son.kh99@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021fac"
+  },
+  "subject": "Góp ý về thái độ shipper",
+  "message": "Shipper giao hàng sáng nay thái độ rất khó chịu, mong shop nhắc nhở.",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f44"
+  },
+  "replyMessage": "Cảm ơn bạn đã phản hồi, bên mình sẽ liên hệ lại qua điện thoại nhé.",
+  "repliedAt": {
+    "$date": "2025-10-02T23:30:33.926Z"
+  },
+  "createdAt": {
+    "$date": "2025-10-02T18:30:33.926Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-02T23:30:33.926Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f3022693"
+  },
+  "name": "Hoàng Quốc Cúc",
+  "email": "hoang.quoc.cuc.kh31@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f68"
+  },
+  "subject": "Hỏi về chính sách sỉ",
+  "message": "Mình muốn nhập số lượng lớn về bán lại, shop có giá sỉ không?",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f3b"
+  },
+  "replyMessage": "Cảm ơn bạn đã phản hồi, bên mình sẽ liên hệ lại qua điện thoại nhé.",
+  "repliedAt": {
+    "$date": "2025-12-02T21:30:13.155Z"
+  },
+  "createdAt": {
+    "$date": "2025-12-02T09:30:13.155Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T21:30:13.155Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f3022694"
+  },
+  "name": "Lê Mạnh Sơn",
+  "email": "le.manh.son.kh85@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f9e"
+  },
+  "subject": "Yêu cầu xuất hóa đơn VAT",
+  "message": "Đơn hàng vừa rồi mình quên điền thông tin xuất hóa đơn công ty.",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f38"
+  },
+  "replyMessage": "Dạ bộ phận kinh doanh sẽ gửi email báo giá cho bạn trong 24h tới.",
+  "repliedAt": {
+    "$date": "2025-11-05T19:07:24.825Z"
+  },
+  "createdAt": {
+    "$date": "2025-11-04T22:07:24.825Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-05T19:07:24.825Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f3022695"
+  },
+  "name": "Vũ Thanh Mai",
+  "email": "vu.thanh.mai.kh66@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f8b"
+  },
+  "subject": "Quên mật khẩu",
+  "message": "Mình không nhận được email lấy lại mật khẩu, admin kiểm tra giúp.",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-08-10T03:09:37.359Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-10T03:09:37.359Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f3022696"
+  },
+  "name": "Phạm Quốc Dũng",
+  "email": "pham.quoc.dung.kh56@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f81"
+  },
+  "subject": "Hàng không đúng mô tả",
+  "message": "Mình đặt cam sành nhưng nhận được cam xoàn, shop kiểm tra lại.",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-11-10T14:09:14.562Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-10T14:09:14.562Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f3022697"
+  },
+  "name": "Huỳnh Khánh Cúc",
+  "email": "huynh.khanh.cuc.kh6@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f4f"
+  },
+  "subject": "Hỏi về chính sách sỉ",
+  "message": "Mình muốn nhập số lượng lớn về bán lại, shop có giá sỉ không?",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-08-29T22:58:12.887Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-29T22:58:12.887Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f3022698"
+  },
+  "name": "Hồ Mạnh Mai",
+  "email": "ho.manh.mai.kh37@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f6e"
+  },
+  "subject": "Góp ý về thái độ shipper",
+  "message": "Shipper giao hàng sáng nay thái độ rất khó chịu, mong shop nhắc nhở.",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-08-23T05:35:28.331Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-23T05:35:28.331Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f3022699"
+  },
+  "name": "Lê Đức Tùng",
+  "email": "le.uc.tung.kh26@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f63"
+  },
+  "subject": "Hỏi về chính sách sỉ",
+  "message": "Mình muốn nhập số lượng lớn về bán lại, shop có giá sỉ không?",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f3a"
+  },
+  "replyMessage": "Dạ bộ phận kinh doanh sẽ gửi email báo giá cho bạn trong 24h tới.",
+  "repliedAt": {
+    "$date": "2025-11-07T04:52:48.913Z"
+  },
+  "createdAt": {
+    "$date": "2025-11-06T16:52:48.913Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-07T04:52:48.913Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f302269a"
+  },
+  "name": "Đỗ Gia Nam",
+  "email": "o.gia.nam.kh64@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f89"
+  },
+  "subject": "Quên mật khẩu",
+  "message": "Mình không nhận được email lấy lại mật khẩu, admin kiểm tra giúp.",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f46"
+  },
+  "replyMessage": "Chào bạn, shop đã kiểm tra và sẽ xử lý ngay cho bạn ạ.",
+  "repliedAt": {
+    "$date": "2025-10-17T13:07:57.196Z"
+  },
+  "createdAt": {
+    "$date": "2025-10-16T20:07:57.196Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-17T13:07:57.196Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f302269b"
+  },
+  "name": "Khách vãng lai 42",
+  "email": "guest.visitor.42@example.com",
+  "customerId": null,
+  "subject": "Sản phẩm bị dập nát",
+  "message": "Mình vừa nhận được thùng táo nhưng có 2 quả bị dập, shop hỗ trợ đổi không?",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f43"
+  },
+  "replyMessage": "Cảm ơn bạn đã phản hồi, bên mình sẽ liên hệ lại qua điện thoại nhé.",
+  "repliedAt": {
+    "$date": "2025-08-13T21:43:22.831Z"
+  },
+  "createdAt": {
+    "$date": "2025-08-13T09:43:22.831Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-13T21:43:22.831Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f302269c"
+  },
+  "name": "Phan Gia Dũng",
+  "email": "phan.gia.dung.kh12@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f55"
+  },
+  "subject": "Quên mật khẩu",
+  "message": "Mình không nhận được email lấy lại mật khẩu, admin kiểm tra giúp.",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f32"
+  },
+  "replyMessage": "Dạ bộ phận kinh doanh sẽ gửi email báo giá cho bạn trong 24h tới.",
+  "repliedAt": {
+    "$date": "2025-07-12T12:16:49.181Z"
+  },
+  "createdAt": {
+    "$date": "2025-07-11T16:16:49.181Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T12:16:49.181Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f302269d"
+  },
+  "name": "Khách vãng lai 44",
+  "email": "guest.visitor.44@example.com",
+  "customerId": null,
+  "subject": "Hỏi về tình trạng đơn hàng",
+  "message": "Cho mình hỏi đơn hàng #ORD-202512 đặt hôm qua bao giờ giao ạ?",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-10-06T20:59:53.860Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-06T20:59:53.860Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f302269e"
+  },
+  "name": "Hồ Thị Hương",
+  "email": "ho.thi.huong.kh33@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f6a"
+  },
+  "subject": "Quên mật khẩu",
+  "message": "Mình không nhận được email lấy lại mật khẩu, admin kiểm tra giúp.",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f41"
+  },
+  "replyMessage": "Shop rất xin lỗi về sự cố này, shop sẽ hoàn tiền vào ví cho bạn ạ.",
+  "repliedAt": {
+    "$date": "2025-11-19T20:53:50.010Z"
+  },
+  "createdAt": {
+    "$date": "2025-11-19T16:53:50.010Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-19T20:53:50.010Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f302269f"
+  },
+  "name": "Hồ Thị Nam",
+  "email": "ho.thi.nam.kh55@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f80"
+  },
+  "subject": "Muốn hợp tác phân phối",
+  "message": "Tôi là chủ nông trại tại Đà Lạt, muốn gửi hồ sơ chào hàng rau củ sạch.",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-08-08T12:34:45.418Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-08T12:34:45.418Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226a0"
+  },
+  "name": "Võ Gia Hoa",
+  "email": "vo.gia.hoa.kh17@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f5a"
+  },
+  "subject": "Hỏi về chính sách sỉ",
+  "message": "Mình muốn nhập số lượng lớn về bán lại, shop có giá sỉ không?",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f32"
+  },
+  "replyMessage": "Cảm ơn bạn đã phản hồi, bên mình sẽ liên hệ lại qua điện thoại nhé.",
+  "repliedAt": {
+    "$date": "2025-10-12T00:34:43.869Z"
+  },
+  "createdAt": {
+    "$date": "2025-10-11T11:34:43.869Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-12T00:34:43.869Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226a1"
+  },
+  "name": "Võ Gia Nam",
+  "email": "vo.gia.nam.kh51@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f7c"
+  },
+  "subject": "Hỏi về tình trạng đơn hàng",
+  "message": "Cho mình hỏi đơn hàng #ORD-202512 đặt hôm qua bao giờ giao ạ?",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-08-07T11:31:11.551Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T11:31:11.551Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226a2"
+  },
+  "name": "Ngô Thanh Hương",
+  "email": "ngo.thanh.huong.kh8@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f51"
+  },
+  "subject": "Quên mật khẩu",
+  "message": "Mình không nhận được email lấy lại mật khẩu, admin kiểm tra giúp.",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-11-14T15:41:48.527Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-14T15:41:48.527Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226a3"
+  },
+  "name": "Khách vãng lai 50",
+  "email": "guest.visitor.50@example.com",
+  "customerId": null,
+  "subject": "Yêu cầu xuất hóa đơn VAT",
+  "message": "Đơn hàng vừa rồi mình quên điền thông tin xuất hóa đơn công ty.",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-11-28T21:27:35.841Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-28T21:27:35.841Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226a4"
+  },
+  "name": "Võ Thị Trang",
+  "email": "vo.thi.trang.kh7@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f50"
+  },
+  "subject": "Sản phẩm bị dập nát",
+  "message": "Mình vừa nhận được thùng táo nhưng có 2 quả bị dập, shop hỗ trợ đổi không?",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-09-25T06:28:01.161Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-25T06:28:01.161Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226a5"
+  },
+  "name": "Phạm Đức Nam",
+  "email": "pham.uc.nam.kh72@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f91"
+  },
+  "subject": "Sản phẩm bị dập nát",
+  "message": "Mình vừa nhận được thùng táo nhưng có 2 quả bị dập, shop hỗ trợ đổi không?",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f31"
+  },
+  "replyMessage": "Dạ bộ phận kinh doanh sẽ gửi email báo giá cho bạn trong 24h tới.",
+  "repliedAt": {
+    "$date": "2025-08-20T21:28:28.426Z"
+  },
+  "createdAt": {
+    "$date": "2025-08-20T20:28:28.426Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-20T21:28:28.426Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226a6"
+  },
+  "name": "Vũ Hoài Trúc",
+  "email": "vu.hoai.truc.kh18@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f5b"
+  },
+  "subject": "Hỏi về tình trạng đơn hàng",
+  "message": "Cho mình hỏi đơn hàng #ORD-202512 đặt hôm qua bao giờ giao ạ?",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f3b"
+  },
+  "replyMessage": "Chào bạn, đơn hàng đang trên đường giao, bạn vui lòng chờ thêm chút nhé.",
+  "repliedAt": {
+    "$date": "2025-09-16T21:13:27.025Z"
+  },
+  "createdAt": {
+    "$date": "2025-09-16T08:13:27.025Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-16T21:13:27.025Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226a7"
+  },
+  "name": "Vũ Hoài Trúc",
+  "email": "vu.hoai.truc.kh18@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f5b"
+  },
+  "subject": "Hỏi về chính sách sỉ",
+  "message": "Mình muốn nhập số lượng lớn về bán lại, shop có giá sỉ không?",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-08-07T07:07:53.133Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T07:07:53.133Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226a8"
+  },
+  "name": "Khách vãng lai 55",
+  "email": "guest.visitor.55@example.com",
+  "customerId": null,
+  "subject": "Hàng không đúng mô tả",
+  "message": "Mình đặt cam sành nhưng nhận được cam xoàn, shop kiểm tra lại.",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f31"
+  },
+  "replyMessage": "Chào bạn, shop đã kiểm tra và sẽ xử lý ngay cho bạn ạ.",
+  "repliedAt": {
+    "$date": "2025-09-12T00:16:22.430Z"
+  },
+  "createdAt": {
+    "$date": "2025-09-11T17:16:22.430Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-12T00:16:22.430Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226a9"
+  },
+  "name": "Khách vãng lai 56",
+  "email": "guest.visitor.56@example.com",
+  "customerId": null,
+  "subject": "Hỏi về chính sách sỉ",
+  "message": "Mình muốn nhập số lượng lớn về bán lại, shop có giá sỉ không?",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-08-04T08:29:22.568Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-04T08:29:22.568Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226aa"
+  },
+  "name": "Đặng Mạnh Cúc",
+  "email": "ang.manh.cuc.kh61@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f86"
+  },
+  "subject": "Góp ý về thái độ shipper",
+  "message": "Shipper giao hàng sáng nay thái độ rất khó chịu, mong shop nhắc nhở.",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-09-25T21:57:38.503Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-25T21:57:38.503Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226ab"
+  },
+  "name": "Khách vãng lai 58",
+  "email": "guest.visitor.58@example.com",
+  "customerId": null,
+  "subject": "Góp ý về thái độ shipper",
+  "message": "Shipper giao hàng sáng nay thái độ rất khó chịu, mong shop nhắc nhở.",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-08-19T10:28:44.690Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-19T10:28:44.690Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226ac"
+  },
+  "name": "Đỗ Gia Nam",
+  "email": "o.gia.nam.kh64@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f89"
+  },
+  "subject": "Góp ý về thái độ shipper",
+  "message": "Shipper giao hàng sáng nay thái độ rất khó chịu, mong shop nhắc nhở.",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-11-26T03:41:32.819Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T03:41:32.819Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226ad"
+  },
+  "name": "Khách vãng lai 60",
+  "email": "guest.visitor.60@example.com",
+  "customerId": null,
+  "subject": "Quên mật khẩu",
+  "message": "Mình không nhận được email lấy lại mật khẩu, admin kiểm tra giúp.",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-10-07T02:14:16.665Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-07T02:14:16.665Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226ae"
+  },
+  "name": "Lê Tuấn Dũng",
+  "email": "le.tuan.dung.kh79@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f98"
+  },
+  "subject": "Sản phẩm bị dập nát",
+  "message": "Mình vừa nhận được thùng táo nhưng có 2 quả bị dập, shop hỗ trợ đổi không?",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-08-04T03:01:58.380Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-04T03:01:58.380Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226af"
+  },
+  "name": "Lê Thị Trúc",
+  "email": "le.thi.truc.kh95@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021fa8"
+  },
+  "subject": "Hàng không đúng mô tả",
+  "message": "Mình đặt cam sành nhưng nhận được cam xoàn, shop kiểm tra lại.",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f47"
+  },
+  "replyMessage": "Chào bạn, đơn hàng đang trên đường giao, bạn vui lòng chờ thêm chút nhé.",
+  "repliedAt": {
+    "$date": "2025-07-22T10:57:39.539Z"
+  },
+  "createdAt": {
+    "$date": "2025-07-22T00:57:39.539Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-22T10:57:39.539Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226b0"
+  },
+  "name": "Võ Gia Hoa",
+  "email": "vo.gia.hoa.kh17@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f5a"
+  },
+  "subject": "Hỏi về chính sách sỉ",
+  "message": "Mình muốn nhập số lượng lớn về bán lại, shop có giá sỉ không?",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-09-14T05:42:13.904Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-14T05:42:13.904Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226b1"
+  },
+  "name": "Khách vãng lai 64",
+  "email": "guest.visitor.64@example.com",
+  "customerId": null,
+  "subject": "Sản phẩm bị dập nát",
+  "message": "Mình vừa nhận được thùng táo nhưng có 2 quả bị dập, shop hỗ trợ đổi không?",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f3a"
+  },
+  "replyMessage": "Chào bạn, đơn hàng đang trên đường giao, bạn vui lòng chờ thêm chút nhé.",
+  "repliedAt": {
+    "$date": "2025-09-05T23:30:18.298Z"
+  },
+  "createdAt": {
+    "$date": "2025-09-05T19:30:18.298Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-05T23:30:18.298Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226b2"
+  },
+  "name": "Khách vãng lai 65",
+  "email": "guest.visitor.65@example.com",
+  "customerId": null,
+  "subject": "Góp ý về thái độ shipper",
+  "message": "Shipper giao hàng sáng nay thái độ rất khó chịu, mong shop nhắc nhở.",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-07-27T16:24:01.161Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-27T16:24:01.161Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226b3"
+  },
+  "name": "Khách vãng lai 66",
+  "email": "guest.visitor.66@example.com",
+  "customerId": null,
+  "subject": "Yêu cầu xuất hóa đơn VAT",
+  "message": "Đơn hàng vừa rồi mình quên điền thông tin xuất hóa đơn công ty.",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-08-22T02:14:21.794Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-22T02:14:21.794Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226b4"
+  },
+  "name": "Ngô Thanh Hương",
+  "email": "ngo.thanh.huong.kh8@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f51"
+  },
+  "subject": "Hàng không đúng mô tả",
+  "message": "Mình đặt cam sành nhưng nhận được cam xoàn, shop kiểm tra lại.",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-08-18T09:45:54.430Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T09:45:54.430Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226b5"
+  },
+  "name": "Đặng Gia Hùng",
+  "email": "ang.gia.hung.kh73@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f92"
+  },
+  "subject": "Hàng không đúng mô tả",
+  "message": "Mình đặt cam sành nhưng nhận được cam xoàn, shop kiểm tra lại.",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f46"
+  },
+  "replyMessage": "Chào bạn, đơn hàng đang trên đường giao, bạn vui lòng chờ thêm chút nhé.",
+  "repliedAt": {
+    "$date": "2025-08-26T16:19:16.259Z"
+  },
+  "createdAt": {
+    "$date": "2025-08-25T20:19:16.259Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-26T16:19:16.259Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226b6"
+  },
+  "name": "Đỗ Văn Dũng",
+  "email": "o.van.dung.kh91@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021fa4"
+  },
+  "subject": "Hỏi về tình trạng đơn hàng",
+  "message": "Cho mình hỏi đơn hàng #ORD-202512 đặt hôm qua bao giờ giao ạ?",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-07-07T05:31:18.991Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-07T05:31:18.991Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226b7"
+  },
+  "name": "Huỳnh Đức Trang",
+  "email": "huynh.uc.trang.kh22@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f5f"
+  },
+  "subject": "Quên mật khẩu",
+  "message": "Mình không nhận được email lấy lại mật khẩu, admin kiểm tra giúp.",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f44"
+  },
+  "replyMessage": "Dạ bộ phận kinh doanh sẽ gửi email báo giá cho bạn trong 24h tới.",
+  "repliedAt": {
+    "$date": "2025-10-04T13:28:33.415Z"
+  },
+  "createdAt": {
+    "$date": "2025-10-04T11:28:33.415Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-04T13:28:33.415Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226b8"
+  },
+  "name": "Ngô Đức Cường",
+  "email": "ngo.uc.cuong.kh48@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f79"
+  },
+  "subject": "Góp ý về thái độ shipper",
+  "message": "Shipper giao hàng sáng nay thái độ rất khó chịu, mong shop nhắc nhở.",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-11-11T05:56:18.145Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-11T05:56:18.145Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226b9"
+  },
+  "name": "Lê Thị Trúc",
+  "email": "le.thi.truc.kh95@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021fa8"
+  },
+  "subject": "Góp ý về thái độ shipper",
+  "message": "Shipper giao hàng sáng nay thái độ rất khó chịu, mong shop nhắc nhở.",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f47"
+  },
+  "replyMessage": "Cảm ơn bạn đã phản hồi, bên mình sẽ liên hệ lại qua điện thoại nhé.",
+  "repliedAt": {
+    "$date": "2025-07-11T19:34:11.755Z"
+  },
+  "createdAt": {
+    "$date": "2025-07-11T05:34:11.755Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-11T19:34:11.755Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226ba"
+  },
+  "name": "Khách vãng lai 73",
+  "email": "guest.visitor.73@example.com",
+  "customerId": null,
+  "subject": "Muốn hợp tác phân phối",
+  "message": "Tôi là chủ nông trại tại Đà Lạt, muốn gửi hồ sơ chào hàng rau củ sạch.",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f36"
+  },
+  "replyMessage": "Chào bạn, đơn hàng đang trên đường giao, bạn vui lòng chờ thêm chút nhé.",
+  "repliedAt": {
+    "$date": "2025-11-21T17:34:33.753Z"
+  },
+  "createdAt": {
+    "$date": "2025-11-20T22:34:33.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T17:34:33.753Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226bb"
+  },
+  "name": "Khách vãng lai 74",
+  "email": "guest.visitor.74@example.com",
+  "customerId": null,
+  "subject": "Hỏi về chính sách sỉ",
+  "message": "Mình muốn nhập số lượng lớn về bán lại, shop có giá sỉ không?",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-09-11T12:55:14.976Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-11T12:55:14.976Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226bc"
+  },
+  "name": "Khách vãng lai 75",
+  "email": "guest.visitor.75@example.com",
+  "customerId": null,
+  "subject": "Góp ý về thái độ shipper",
+  "message": "Shipper giao hàng sáng nay thái độ rất khó chịu, mong shop nhắc nhở.",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-07-01T04:46:48.683Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-01T04:46:48.683Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226bd"
+  },
+  "name": "Khách vãng lai 76",
+  "email": "guest.visitor.76@example.com",
+  "customerId": null,
+  "subject": "Hàng không đúng mô tả",
+  "message": "Mình đặt cam sành nhưng nhận được cam xoàn, shop kiểm tra lại.",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f46"
+  },
+  "replyMessage": "Dạ bộ phận kinh doanh sẽ gửi email báo giá cho bạn trong 24h tới.",
+  "repliedAt": {
+    "$date": "2025-10-03T12:44:14.817Z"
+  },
+  "createdAt": {
+    "$date": "2025-10-02T22:44:14.817Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-03T12:44:14.817Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226be"
+  },
+  "name": "Vũ Hoài Trúc",
+  "email": "vu.hoai.truc.kh18@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f5b"
+  },
+  "subject": "Hàng không đúng mô tả",
+  "message": "Mình đặt cam sành nhưng nhận được cam xoàn, shop kiểm tra lại.",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f46"
+  },
+  "replyMessage": "Cảm ơn bạn đã phản hồi, bên mình sẽ liên hệ lại qua điện thoại nhé.",
+  "repliedAt": {
+    "$date": "2025-09-01T20:13:37.564Z"
+  },
+  "createdAt": {
+    "$date": "2025-08-31T23:13:37.564Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-01T20:13:37.564Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226bf"
+  },
+  "name": "Võ Gia Cường",
+  "email": "vo.gia.cuong.kh29@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f66"
+  },
+  "subject": "Hàng không đúng mô tả",
+  "message": "Mình đặt cam sành nhưng nhận được cam xoàn, shop kiểm tra lại.",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f33"
+  },
+  "replyMessage": "Chào bạn, đơn hàng đang trên đường giao, bạn vui lòng chờ thêm chút nhé.",
+  "repliedAt": {
+    "$date": "2025-07-13T15:16:13.784Z"
+  },
+  "createdAt": {
+    "$date": "2025-07-12T21:16:13.784Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-13T15:16:13.784Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226c0"
+  },
+  "name": "Vũ Khánh Sơn",
+  "email": "vu.khanh.son.kh77@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f96"
+  },
+  "subject": "Hỏi về tình trạng đơn hàng",
+  "message": "Cho mình hỏi đơn hàng #ORD-202512 đặt hôm qua bao giờ giao ạ?",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f3c"
+  },
+  "replyMessage": "Chào bạn, shop đã kiểm tra và sẽ xử lý ngay cho bạn ạ.",
+  "repliedAt": {
+    "$date": "2025-07-02T09:32:01.627Z"
+  },
+  "createdAt": {
+    "$date": "2025-07-01T23:32:01.627Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-02T09:32:01.627Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226c1"
+  },
+  "name": "Ngô Đức Phượng",
+  "email": "ngo.uc.phuong.kh30@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f67"
+  },
+  "subject": "Hàng không đúng mô tả",
+  "message": "Mình đặt cam sành nhưng nhận được cam xoàn, shop kiểm tra lại.",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f39"
+  },
+  "replyMessage": "Chào bạn, đơn hàng đang trên đường giao, bạn vui lòng chờ thêm chút nhé.",
+  "repliedAt": {
+    "$date": "2025-08-03T04:17:41.115Z"
+  },
+  "createdAt": {
+    "$date": "2025-08-03T02:17:41.115Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-03T04:17:41.115Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226c2"
+  },
+  "name": "Đỗ Văn Dũng",
+  "email": "o.van.dung.kh91@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021fa4"
+  },
+  "subject": "Yêu cầu xuất hóa đơn VAT",
+  "message": "Đơn hàng vừa rồi mình quên điền thông tin xuất hóa đơn công ty.",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-08-16T05:33:22.463Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-16T05:33:22.463Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226c3"
+  },
+  "name": "Phạm Thị Dũng",
+  "email": "pham.thi.dung.kh67@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f8c"
+  },
+  "subject": "Hàng không đúng mô tả",
+  "message": "Mình đặt cam sành nhưng nhận được cam xoàn, shop kiểm tra lại.",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-07-30T04:47:02.191Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-30T04:47:02.191Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226c4"
+  },
+  "name": "Ngô Đức Phượng",
+  "email": "ngo.uc.phuong.kh30@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f67"
+  },
+  "subject": "Hàng không đúng mô tả",
+  "message": "Mình đặt cam sành nhưng nhận được cam xoàn, shop kiểm tra lại.",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f47"
+  },
+  "replyMessage": "Shop rất xin lỗi về sự cố này, shop sẽ hoàn tiền vào ví cho bạn ạ.",
+  "repliedAt": {
+    "$date": "2025-08-06T14:43:47.588Z"
+  },
+  "createdAt": {
+    "$date": "2025-08-06T02:43:47.588Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T14:43:47.588Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226c5"
+  },
+  "name": "Hoàng Văn Lan",
+  "email": "hoang.van.lan.kh5@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f4e"
+  },
+  "subject": "Hỏi về tình trạng đơn hàng",
+  "message": "Cho mình hỏi đơn hàng #ORD-202512 đặt hôm qua bao giờ giao ạ?",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-08-04T01:25:56.156Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-04T01:25:56.156Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226c6"
+  },
+  "name": "Đặng Khánh Lan",
+  "email": "ang.khanh.lan.kh11@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f54"
+  },
+  "subject": "Hỏi về chính sách sỉ",
+  "message": "Mình muốn nhập số lượng lớn về bán lại, shop có giá sỉ không?",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f37"
+  },
+  "replyMessage": "Chào bạn, đơn hàng đang trên đường giao, bạn vui lòng chờ thêm chút nhé.",
+  "repliedAt": {
+    "$date": "2025-07-13T22:24:20.815Z"
+  },
+  "createdAt": {
+    "$date": "2025-07-13T05:24:20.815Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-13T22:24:20.815Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226c7"
+  },
+  "name": "Phạm Thanh Hùng",
+  "email": "pham.thanh.hung.kh14@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f57"
+  },
+  "subject": "Sản phẩm bị dập nát",
+  "message": "Mình vừa nhận được thùng táo nhưng có 2 quả bị dập, shop hỗ trợ đổi không?",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f36"
+  },
+  "replyMessage": "Chào bạn, đơn hàng đang trên đường giao, bạn vui lòng chờ thêm chút nhé.",
+  "repliedAt": {
+    "$date": "2025-11-03T06:59:18.257Z"
+  },
+  "createdAt": {
+    "$date": "2025-11-02T10:59:18.257Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-03T06:59:18.257Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226c8"
+  },
+  "name": "Khách vãng lai 87",
+  "email": "guest.visitor.87@example.com",
+  "customerId": null,
+  "subject": "Sản phẩm bị dập nát",
+  "message": "Mình vừa nhận được thùng táo nhưng có 2 quả bị dập, shop hỗ trợ đổi không?",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-11-17T20:11:30.314Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-17T20:11:30.314Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226c9"
+  },
+  "name": "Khách vãng lai 88",
+  "email": "guest.visitor.88@example.com",
+  "customerId": null,
+  "subject": "Hàng không đúng mô tả",
+  "message": "Mình đặt cam sành nhưng nhận được cam xoàn, shop kiểm tra lại.",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-09-07T11:41:37.897Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-07T11:41:37.897Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226ca"
+  },
+  "name": "Nguyễn Văn Hoa",
+  "email": "nguyen.van.hoa.kh84@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f9d"
+  },
+  "subject": "Góp ý về thái độ shipper",
+  "message": "Shipper giao hàng sáng nay thái độ rất khó chịu, mong shop nhắc nhở.",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f36"
+  },
+  "replyMessage": "Chào bạn, shop đã kiểm tra và sẽ xử lý ngay cho bạn ạ.",
+  "repliedAt": {
+    "$date": "2025-10-25T00:15:31.097Z"
+  },
+  "createdAt": {
+    "$date": "2025-10-24T10:15:31.097Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-25T00:15:31.097Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226cb"
+  },
+  "name": "Khách vãng lai 90",
+  "email": "guest.visitor.90@example.com",
+  "customerId": null,
+  "subject": "Quên mật khẩu",
+  "message": "Mình không nhận được email lấy lại mật khẩu, admin kiểm tra giúp.",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-10-17T02:46:41.726Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-17T02:46:41.726Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226cc"
+  },
+  "name": "Khách vãng lai 91",
+  "email": "guest.visitor.91@example.com",
+  "customerId": null,
+  "subject": "Hàng không đúng mô tả",
+  "message": "Mình đặt cam sành nhưng nhận được cam xoàn, shop kiểm tra lại.",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f42"
+  },
+  "replyMessage": "Chào bạn, đơn hàng đang trên đường giao, bạn vui lòng chờ thêm chút nhé.",
+  "repliedAt": {
+    "$date": "2025-09-15T00:22:48.745Z"
+  },
+  "createdAt": {
+    "$date": "2025-09-14T02:22:48.745Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-15T00:22:48.745Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226cd"
+  },
+  "name": "Huỳnh Khánh Trúc",
+  "email": "huynh.khanh.truc.kh92@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021fa5"
+  },
+  "subject": "Quên mật khẩu",
+  "message": "Mình không nhận được email lấy lại mật khẩu, admin kiểm tra giúp.",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f3a"
+  },
+  "replyMessage": "Dạ bộ phận kinh doanh sẽ gửi email báo giá cho bạn trong 24h tới.",
+  "repliedAt": {
+    "$date": "2025-09-01T08:55:00.984Z"
+  },
+  "createdAt": {
+    "$date": "2025-08-31T13:55:00.984Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-01T08:55:00.984Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226ce"
+  },
+  "name": "Khách vãng lai 93",
+  "email": "guest.visitor.93@example.com",
+  "customerId": null,
+  "subject": "Hàng không đúng mô tả",
+  "message": "Mình đặt cam sành nhưng nhận được cam xoàn, shop kiểm tra lại.",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-07-16T02:03:55.773Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-16T02:03:55.773Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226cf"
+  },
+  "name": "Lê Tuấn Dũng",
+  "email": "le.tuan.dung.kh79@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f98"
+  },
+  "subject": "Yêu cầu xuất hóa đơn VAT",
+  "message": "Đơn hàng vừa rồi mình quên điền thông tin xuất hóa đơn công ty.",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f36"
+  },
+  "replyMessage": "Cảm ơn bạn đã phản hồi, bên mình sẽ liên hệ lại qua điện thoại nhé.",
+  "repliedAt": {
+    "$date": "2025-09-06T12:43:15.387Z"
+  },
+  "createdAt": {
+    "$date": "2025-09-05T19:43:15.387Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-06T12:43:15.387Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226d0"
+  },
+  "name": "Phạm Quốc Dũng",
+  "email": "pham.quoc.dung.kh56@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f81"
+  },
+  "subject": "Hỏi về tình trạng đơn hàng",
+  "message": "Cho mình hỏi đơn hàng #ORD-202512 đặt hôm qua bao giờ giao ạ?",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f31"
+  },
+  "replyMessage": "Chào bạn, đơn hàng đang trên đường giao, bạn vui lòng chờ thêm chút nhé.",
+  "repliedAt": {
+    "$date": "2025-11-19T23:41:31.387Z"
+  },
+  "createdAt": {
+    "$date": "2025-11-19T05:41:31.387Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-19T23:41:31.387Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226d1"
+  },
+  "name": "Huỳnh Gia Hoa",
+  "email": "huynh.gia.hoa.kh4@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f4d"
+  },
+  "subject": "Hỏi về tình trạng đơn hàng",
+  "message": "Cho mình hỏi đơn hàng #ORD-202512 đặt hôm qua bao giờ giao ạ?",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f43"
+  },
+  "replyMessage": "Shop rất xin lỗi về sự cố này, shop sẽ hoàn tiền vào ví cho bạn ạ.",
+  "repliedAt": {
+    "$date": "2025-09-29T22:49:50.361Z"
+  },
+  "createdAt": {
+    "$date": "2025-09-29T11:49:50.361Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-29T22:49:50.361Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226d2"
+  },
+  "name": "Lê Thị Cúc",
+  "email": "le.thi.cuc.kh93@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021fa6"
+  },
+  "subject": "Quên mật khẩu",
+  "message": "Mình không nhận được email lấy lại mật khẩu, admin kiểm tra giúp.",
+  "status": "REPLIED",
+  "replierId": {
+    "$oid": "6933a3a1867aca05f3021f49"
+  },
+  "replyMessage": "Cảm ơn bạn đã phản hồi, bên mình sẽ liên hệ lại qua điện thoại nhé.",
+  "repliedAt": {
+    "$date": "2025-09-29T13:30:38.896Z"
+  },
+  "createdAt": {
+    "$date": "2025-09-28T21:30:38.896Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-29T13:30:38.896Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226d3"
+  },
+  "name": "Trần Văn Tùng",
+  "email": "tran.van.tung.kh47@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f78"
+  },
+  "subject": "Hàng không đúng mô tả",
+  "message": "Mình đặt cam sành nhưng nhận được cam xoàn, shop kiểm tra lại.",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-07-16T05:43:07.783Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-16T05:43:07.783Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69342d28867aca05f30226d4"
+  },
+  "name": "Ngô Đức Cường",
+  "email": "ngo.uc.cuong.kh48@gmail.com",
+  "customerId": {
+    "$oid": "6933a3a1867aca05f3021f79"
+  },
+  "subject": "Hàng không đúng mô tả",
+  "message": "Mình đặt cam sành nhưng nhận được cam xoàn, shop kiểm tra lại.",
+  "status": "PENDING",
+  "replierId": null,
+  "replyMessage": null,
+  "repliedAt": null,
+  "createdAt": {
+    "$date": "2025-09-14T12:26:28.643Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-14T12:26:28.643Z"
+  },
+  "__v": 0
+}]

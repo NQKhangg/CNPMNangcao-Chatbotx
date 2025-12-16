@@ -1,0 +1,43 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@nestjs/mapped-types": "*",
+    "@react-oauth/google": "^0.12.2",
+    "axios": "^1.13.2",
+    "canvas-confetti": "^1.9.4",
+    "clipboard-copy": "^4.0.1",
+    "clsx": "^2.1.1",
+    "js-cookie": "^3.0.5",
+    "lucide-react": "^0.555.0",
+    "next": "^16.1.0-canary.11",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-hook-form": "^7.66.1",
+    "recharts": "^3.5.1",
+    "sonner": "^2.0.7",
+    "tailwind-merge": "^3.4.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/js-cookie": "^3.0.6",
+    "@types/node": "^20.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.4.22",
+    "baseline-browser-mapping": "^2.8.32",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "16.0.4",
+    "tailwindcss": "^4.0.0",
+    "tailwindcss-animated": "^2.0.0",
+    "typescript": "^5.0.0"
+  }
+}
