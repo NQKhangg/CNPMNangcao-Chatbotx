@@ -71,3 +71,5 @@ uvicorn gemini:app --port 8000 --reload
 ```
 
 ---
+## Giao diện 
+![Uploading Ảnh chụp màn hình (337).png…]()
