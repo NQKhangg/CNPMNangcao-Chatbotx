@@ -1,4 +1,4 @@
-import { BadRequestException, Injectable } from '@nestjs/common';
+import { BadRequestException, forwardRef, Inject, Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { isValidObjectId, Model, Types } from 'mongoose';
 import { Order, OrderDocument } from './entities/order.entity';
@@ -15,6 +15,7 @@ export class OrdersService {
   constructor(
     @InjectModel(Order.name) private orderModel: Model<OrderDocument>,
     @InjectModel(Product.name) private productModel: Model<ProductDocument>,
+    @Inject(forwardRef(() => InventoryService))
     private inventoryService: InventoryService, // Service Kho
     private couponsService: CouponsService, // Service Mã giảm giá
   ) {}
@@ -132,6 +133,10 @@ export class OrdersService {
     if (discountAmount > maxDiscount) discountAmount = maxDiscount;
 
     const finalTotal = Math.max(0, subTotal + shippingFee - discountAmount);
+    const status =
+      finalTotal === 0 ? OrderStatus.CONFIRMED : OrderStatus.PENDING;
+    const paymentStatus =
+      finalTotal === 0 ? PaymentStatus.PAID : PaymentStatus.UNPAID;
 
     // 4: Lưu đơn hàng vào MongoDB
     try {
@@ -142,9 +147,9 @@ export class OrdersService {
         customerInfo: customerInfo, // Object { name, phone, address... }
         items: orderItems,
 
-        status: OrderStatus.PENDING,
+        status: status,
         paymentMethod: paymentMethod,
-        paymentStatus: PaymentStatus.UNPAID,
+        paymentStatus: paymentStatus,
 
         // Khởi tạo lịch sử đơn hàng
         history: [

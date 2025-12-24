@@ -47,7 +47,7 @@ export class UploadController {
   ) {
     // Trả về đường dẫn file để Frontend hiển thị
     return {
-      url: `${this.configService.get<string>('BACKEND_URL')}/${file.filename}`,
+      url: `${this.configService.get<string>('BACKEND_URL')}/uploads/${file.filename}`,
     };
   }
 }

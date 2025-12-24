@@ -6,6 +6,7 @@ import {
   ForbiddenException,
 } from '@nestjs/common';
 import { Reflector } from '@nestjs/core';
+import { IS_OPTIONAL_KEY } from 'src/common/decorators/optional-auth.decorator';
 import { PERMISSIONS_KEY } from 'src/common/decorators/permissions.decorator';
 import { Permission } from 'src/roles/dtos/create-role.dto';
 import { UsersService } from 'src/users/users.service';
@@ -28,11 +29,11 @@ export class AuthorizationGuard implements CanActivate {
     // 1. Lấy User ID từ request
     // Lưu ý: userId này được AuthenticationGuard gắn vào trước đó.
     const userId = request.userId || request.user?.userId;
+    const rawRole = request.user?.role;
+    const userRole = rawRole?.name ? rawRole.name : rawRole;
 
-    // Nếu không tìm thấy userId -> Chưa đăng nhập -> Chặn (401)
-    if (!userId) {
-      throw new UnauthorizedException('User Id not found (Vui lòng đăng nhập)');
-    }
+    // console.log('User ID:', request.user?.userId);
+    // console.log('User Role nhận được:', userRole);
 
     // 2. Lấy danh sách quyền YÊU CẦU của Route (từ decorator @Permissions)
     // getAllAndOverride: Ưu tiên lấy ở hàm (handler) trước, nếu không có mới lấy ở class (controller)
@@ -41,10 +42,29 @@ export class AuthorizationGuard implements CanActivate {
       [context.getHandler(), context.getClass()],
     );
 
+    // Lấy cờ Optional
+    const isOptional = this.reflector.getAllAndOverride<boolean>(
+      IS_OPTIONAL_KEY,
+      [context.getHandler(), context.getClass()],
+    );
+
     // console.log(`Quyền route yêu cầu:`, routePermissions);
 
     // 3. Nếu Route không yêu cầu quyền gì cả (@Permissions không được gắn) -> Cho qua
-    if (!routePermissions) {
+    if (!routePermissions || routePermissions.length === 0) {
+      return true;
+    }
+
+    // Nếu chưa đăng nhập (Khách)
+    if (!userId) {
+      if (isOptional) {
+        return true; // Là route Optional -> Khách được phép xem (Bỏ qua check quyền)
+      }
+      throw new UnauthorizedException('Vui lòng đăng nhập');
+    }
+
+    // Customer mặc định có quyền xem các trang public/optional mà không cần check DB
+    if (userRole === 'Customer') {
       return true;
     }
 

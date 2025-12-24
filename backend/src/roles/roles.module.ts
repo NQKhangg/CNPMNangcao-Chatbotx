@@ -1,4 +1,4 @@
-import { Module } from '@nestjs/common';
+import { forwardRef, Module } from '@nestjs/common';
 import { RolesService } from './roles.service';
 import { RolesController } from './roles.controller';
 import { MongooseModule } from '@nestjs/mongoose';
@@ -8,6 +8,7 @@ import { UsersModule } from 'src/users/users.module';
 @Module({
   imports: [
     MongooseModule.forFeature([{ name: Role.name, schema: RoleSchema }]),
+    forwardRef(() => UsersModule),
   ],
   controllers: [RolesController],
   providers: [RolesService],

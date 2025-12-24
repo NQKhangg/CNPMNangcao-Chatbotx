@@ -1,4 +1,5 @@
 import axios from "axios";
+import Cookies from "js-cookie";
 
 // --- 1. CẤU HÌNH CHUNG ---
 const BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:4000";
@@ -12,12 +13,10 @@ const api = axios.create({
 });
 
 // --- 2. REQUEST INTERCEPTOR ---
-// Tự động gắn Access Token vào mọi request gửi đi
 api.interceptors.request.use(
   (config) => {
-    // Kiểm tra môi trường Browser
     if (typeof window !== "undefined") {
-      const token = localStorage.getItem("accessToken");
+      const token = localStorage.getItem("accessToken") || Cookies.get("token");
       if (token) {
         config.headers.Authorization = `Bearer ${token}`;
       }
@@ -28,15 +27,14 @@ api.interceptors.request.use(
 );
 
 // --- 3. RESPONSE INTERCEPTOR ---
-// Xử lý kết quả trả về và Tự động Refresh Token khi gặp lỗi 401
 api.interceptors.response.use(
-  (response) => response, // Nếu thành công, trả về data nguyên bản
+  (response) => response,
   async (error) => {
     const originalRequest = error.config;
 
-    // Điều kiện: Lỗi 401 (Unauthorized) VÀ Request này chưa từng được retry
+    // Điều kiện: Lỗi 401 VÀ Request chưa từng retry
     if (error.response?.status === 401 && !originalRequest._retry) {
-      originalRequest._retry = true; // Đánh dấu để tránh vòng lặp vô hạn
+      originalRequest._retry = true;
 
       try {
         const refreshToken =
@@ -48,10 +46,7 @@ api.interceptors.response.use(
           throw new Error("Không tìm thấy Refresh Token");
         }
 
-        // --- LƯU Ý ---
-        // Phải dùng 'axios' gốc để gọi API refresh.
-        // Nếu dùng 'api' (instance hiện tại), nó sẽ lại chạy qua interceptor này
-        // và có thể gây ra vòng lặp vô tận nếu API refresh cũng bị lỗi.
+        // Gọi API Refresh
         const res = await axios.post(`${BASE_URL}/auth/refresh`, {
           refreshToken,
         });
@@ -59,23 +54,50 @@ api.interceptors.response.use(
         const { accessToken, refreshToken: newRefreshToken } = res.data;
 
         if (accessToken) {
-          // 1. Lưu token mới vào Storage
+          // Cập nhật Token mới vào Storage & Cookie
           localStorage.setItem("accessToken", accessToken);
+          Cookies.set("token", accessToken);
 
-          // Nếu server trả về cả Refresh Token mới, hãy cập nhật luôn
           if (newRefreshToken) {
             localStorage.setItem("refreshToken", newRefreshToken);
           }
 
-          // 2. Gắn token mới vào header của request cũ
+          // Retry request cũ
           originalRequest.headers["Authorization"] = `Bearer ${accessToken}`;
-
-          // 3. Thực hiện lại request cũ với token mới
           return api(originalRequest);
         }
       } catch (refreshError) {
-        // Nếu Refresh Token cũng hết hạn hoặc không hợp lệ -> Buộc đăng xuất
         console.error("Phiên đăng nhập hết hạn:", refreshError);
+
+        if (typeof window !== "undefined") {
+          // 1. Xóa sạch token cũ
+          localStorage.clear();
+          Cookies.remove("token");
+          Cookies.remove("role");
+
+          // 2. Kiểm tra trang hiện tại
+          const path = window.location.pathname;
+
+          // Danh sách các trang "An toàn" (Không cần login vẫn xem được)
+          // Bao gồm: Trang chủ, Danh sách sản phẩm, Blog...
+          const publicPaths = ["/", "/home", "/products", "/blogs"];
+
+          // Logic: Nếu đang ở trang public HOẶC trang con của products/blogs
+          const isPublicPage = publicPaths.some(
+            (p) =>
+              path === p ||
+              path.startsWith("/products") ||
+              path.startsWith("/blogs")
+          );
+
+          if (isPublicPage) {
+            // NẾU LÀ TRANG PUBLIC: Không redirect!
+            // Chỉ trả về lỗi để Component (Header) biết mà ẩn thông tin user đi
+            return Promise.reject(refreshError);
+          }
+        }
+
+        // NẾU LÀ TRANG CẦN BẢO MẬT (Profile, Cart...): --> Login
         handleLogout();
       }
     }
@@ -87,8 +109,9 @@ api.interceptors.response.use(
 // --- 4. HÀM HỖ TRỢ ---
 const handleLogout = () => {
   if (typeof window !== "undefined") {
-    localStorage.clear(); // Xóa sạch toàn bộ data phiên làm việc
-    // Dùng window.location để reload lại trang, đảm bảo xóa sạch state của React/Next.js
+    localStorage.clear();
+    Cookies.remove("token");
+    Cookies.remove("role");
     window.location.href = "/login";
   }
 };

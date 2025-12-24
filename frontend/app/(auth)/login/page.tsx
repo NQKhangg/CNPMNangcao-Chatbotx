@@ -56,6 +56,8 @@ export default function LoginPage() {
       // B2: Lưu Token vào Storage (Client-side usage)
       localStorage.setItem("accessToken", accessToken);
       localStorage.setItem("refreshToken", refreshToken);
+      Cookies.set("token", accessToken, { expires: 7 });
+      Cookies.set("role", role, { expires: 7 });
 
       // B3: Lưu Cookie (Middleware usage & Server-side checks)
       Cookies.set("role", role, { expires: 1 }); // 1 ngày
@@ -85,6 +87,20 @@ export default function LoginPage() {
 
       // Gửi token Google lên Backend để verify và lấy JWT của hệ thống
       const res = await api.post("/auth/google", { token: credential });
+
+      // Trích xuất token và role từ phản hồi của backend
+      const { accessToken, refreshToken, role } = res.data;
+
+      // Lưu Token vào Storage (Client-side usage)
+      localStorage.setItem("accessToken", accessToken);
+      localStorage.setItem("refreshToken", refreshToken);
+
+      // Lưu Token vào Cookie để Middleware/Server nhận diện được
+      Cookies.set("token", accessToken, { expires: 7 });
+      Cookies.set("role", role, { expires: 7 });
+
+      // Sử dụng hàm login từ Context
+      login(accessToken);
 
       // Sử dụng hàm login từ Context
       login(res.data.access_token);

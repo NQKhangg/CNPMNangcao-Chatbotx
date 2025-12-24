@@ -104,10 +104,10 @@ export class InventoryService {
       const regex = new RegExp(keyword.trim(), 'i'); // Case-insensitive
 
       const orConditions: any[] = [
-        { referenceCode: regex }, // Tìm theo mã phiếu
-        { reason: regex }, // Tìm theo lý do
-        { type: regex }, // Tìm theo loại
-        { 'actor.email': regex }, // Tìm theo email người làm
+        { referenceCode: { $regex: regex } }, // Tìm theo mã phiếu
+        { reason: { $regex: regex } }, // Tìm theo lý do
+        { type: { $regex: regex } }, // Tìm theo loại
+        { 'actor.email': { $regex: regex } }, // Tìm theo email người làm
       ];
 
       // Nếu keyword là ID hợp lệ -> Tìm theo các trường liên kết
@@ -136,6 +136,8 @@ export class InventoryService {
         .exec(),
       this.logModel.countDocuments(filter),
     ]);
+
+    console.log(data);
 
     // 4. Trả về kết quả
     return {

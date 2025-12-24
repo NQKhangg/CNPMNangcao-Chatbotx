@@ -93,7 +93,7 @@ const MENU_ITEMS = [
       },
       {
         href: "/admin/roles",
-        label: "Phân quyền",
+        label: "Tạo quyền",
         icon: <ShieldCheck size={20} />,
       },
     ],

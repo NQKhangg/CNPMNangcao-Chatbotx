@@ -105,8 +105,8 @@ export class OrdersController {
    * Yêu cầu: Quyền UPDATE Orders.
    */
   @Put(':id/status')
-  @UseGuards(AuthenticationGuard)
-  // @Permissions([{ resource: Resource.orders, actions: [Action.update] }])
+  @UseGuards(AuthenticationGuard, AuthorizationGuard)
+  @Permissions([{ resource: Resource.orders, actions: [Action.update] }])
   @Audit(Resource.orders, Action.update)
   updateStatus(
     @Param('id') id: string,
@@ -135,8 +135,8 @@ export class OrdersController {
    * Tách biệt với trạng thái giao vận.
    */
   @Put(':id/payment-status')
-  @UseGuards(AuthenticationGuard)
-  // @Permissions([{ resource: Resource.orders, actions: [Action.update] }])
+  @UseGuards(AuthenticationGuard, AuthorizationGuard)
+  @Permissions([{ resource: Resource.orders, actions: [Action.update] }])
   @Audit(Resource.orders, Action.update)
   updatePaymentStatus(
     @Param('id') id: string,

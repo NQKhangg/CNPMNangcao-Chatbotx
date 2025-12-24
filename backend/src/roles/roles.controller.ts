@@ -18,13 +18,14 @@ import { Action } from './enums/action.enum';
 import { Audit } from 'src/common/decorators/audit.decorator';
 import { Permissions } from '../common/decorators/permissions.decorator';
 import { UpdateRoleDto } from './dtos/update-role.dto';
+import { AuthorizationGuard } from 'src/guards/authorization.guard';
 
 /**
  * Controller Quản lý Vai trò (Role)
  */
 @Controller('roles')
 @UseInterceptors(AuditInterceptor) // Ghi log toàn bộ thao tác trong controller
-@UseGuards(AuthenticationGuard) // Áp dụng Guard cho TOÀN BỘ controller
+@UseGuards(AuthenticationGuard, AuthorizationGuard) // Áp dụng Guard cho TOÀN BỘ controller
 export class RolesController {
   constructor(private readonly rolesService: RolesService) {}
 

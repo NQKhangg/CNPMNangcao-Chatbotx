@@ -70,9 +70,11 @@ interface CheckoutFormData {
 const BankTransferModal = ({
   order,
   onClose,
+  onSuccess,
 }: {
   order: any;
   onClose: () => void;
+  onSuccess: () => void;
 }) => {
   const router = useRouter();
 
@@ -97,6 +99,9 @@ const BankTransferModal = ({
         if (res.status === "CONFIRMED" || res.status === "PAID") {
           toast.success("Thanh toán thành công!");
           clearInterval(interval);
+
+          onSuccess();
+
           router.push(`/thank-you?orderId=${order._id}`);
         }
       } catch (e) {
@@ -104,7 +109,7 @@ const BankTransferModal = ({
       }
     }, 3000);
     return () => clearInterval(interval);
-  }, [order._id, router]);
+  }, [order._id, router, , onSuccess]);
 
   // Copy nội dung chuyển khoản
   const handleCopy = () => {
@@ -193,8 +198,8 @@ export default function CheckoutPage() {
   const [provinces, setProvinces] = useState<Location[]>([]);
   const [districts, setDistricts] = useState<Location[]>([]);
   const [wards, setWards] = useState<Location[]>([]);
-  const [selectedProvince, setSelectedProvince] = useState("");
-  const [selectedDistrict, setSelectedDistrict] = useState("");
+  // const [selectedProvince, setSelectedProvince] = useState("");
+  // const [selectedDistrict, setSelectedDistrict] = useState("");
 
   // Selected IDs
   const [selectedProvinceId, setSelectedProvinceId] = useState("");
@@ -342,7 +347,7 @@ export default function CheckoutPage() {
   // 3. Redirect nếu giỏ hàng trống
   useEffect(() => {
     // Nếu giỏ hàng trống vì thanh toán thành công thì không chuyển sang page products
-    if (cart.length === 0 && !showPaymentModal && !isSuccess) {
+    if (cart.length === 0 && !showPaymentModal && !isSuccess && !currentOrder) {
       router.push("/products");
     }
   }, [cart, router, showPaymentModal, isSuccess]);
@@ -376,25 +381,34 @@ export default function CheckoutPage() {
     e: React.ChangeEvent<HTMLSelectElement>
   ) => {
     const provinceId = e.target.value;
-    setSelectedProvince(provinceId);
+
+    setSelectedProvinceId(provinceId);
 
     // Reset District & Ward
     setDistricts([]);
     setWards([]);
-    setSelectedDistrict("");
+    setSelectedDistrictId("");
+    setSelectedWardId("");
+
+    // Reset value trong form
     setValue("districtName", "");
     setValue("wardName", "");
 
     // Set Name cho form
     const provinceName = provinces.find((p) => p.id === provinceId)?.name || "";
-    setValue("cityName", provinceName);
+
+    setValue("cityName", provinceName, { shouldValidate: true });
 
     // Load Districts
     if (provinceId) {
-      const res = await axios.get(
-        `https://esgoo.net/api-tinhthanh/2/${provinceId}.htm`
-      );
-      if (res.data.error === 0) setDistricts(res.data.data);
+      try {
+        const res = await axios.get(
+          `https://esgoo.net/api-tinhthanh/2/${provinceId}.htm`
+        );
+        if (res.data.error === 0) setDistricts(res.data.data);
+      } catch (e) {
+        console.error(e);
+      }
     }
   };
 
@@ -402,29 +416,38 @@ export default function CheckoutPage() {
     e: React.ChangeEvent<HTMLSelectElement>
   ) => {
     const districtId = e.target.value;
-    setSelectedDistrict(districtId);
+
+    setSelectedDistrictId(districtId);
 
     // Reset Ward
     setWards([]);
+    setSelectedWardId("");
     setValue("wardName", "");
 
     // Set Name cho form
     const districtName = districts.find((d) => d.id === districtId)?.name || "";
-    setValue("districtName", districtName);
+    setValue("districtName", districtName, { shouldValidate: true });
 
     // Load Wards
     if (districtId) {
-      const res = await axios.get(
-        `https://esgoo.net/api-tinhthanh/3/${districtId}.htm`
-      );
-      if (res.data.error === 0) setWards(res.data.data);
+      try {
+        const res = await axios.get(
+          `https://esgoo.net/api-tinhthanh/3/${districtId}.htm`
+        );
+        if (res.data.error === 0) setWards(res.data.data);
+      } catch (e) {
+        console.error(e);
+      }
     }
   };
 
   const handleWardChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const wardId = e.target.value;
+
+    setSelectedWardId(wardId);
+
     const wardName = wards.find((w) => w.id === wardId)?.name || "";
-    setValue("wardName", wardName);
+    setValue("wardName", wardName, { shouldValidate: true });
   };
 
   // --- D. HANDLERS: COUPON ---
@@ -466,8 +489,11 @@ export default function CheckoutPage() {
 
   const onPlaceOrder: SubmitHandler<CheckoutFormData> = async (data) => {
     setIsProcessing(true);
-    setIsSuccess(true); // Đánh dấu là đã thành công để chặn useEffect redirect về products
+    // setIsSuccess(true); // Đánh dấu là đã thành công để chặn useEffect redirect về products
     try {
+      // Tính toán tổng tiền cuối cùng
+      const finalTotal = totalPrice + shippingFee - totalDiscount;
+
       // Validate địa chỉ lần cuối (vì select option có thể chưa chọn)
       if (!data.cityName || !data.districtName || !data.wardName) {
         toast.error("Vui lòng chọn đầy đủ Tỉnh/Thành, Quận/Huyện, Phường/Xã");
@@ -479,6 +505,13 @@ export default function CheckoutPage() {
       const validCouponCodes = appliedCoupons
         .filter((c) => totalPrice >= (c.minOrderValue || 0))
         .map((c) => c.code);
+
+      const method =
+        finalTotal <= 0
+          ? "COD"
+          : paymentMethod === "banking"
+          ? "BANK_TRANSFER"
+          : "COD";
 
       const orderPayload = {
         customerInfo: {
@@ -496,38 +529,44 @@ export default function CheckoutPage() {
           productId: item.id,
           quantity: Number(item.quantity),
         })),
-        paymentMethod: paymentMethod === "banking" ? "BANK_TRANSFER" : "COD",
+        paymentMethod: method,
         couponCodes: validCouponCodes,
       };
 
       // Gọi API tạo đơn
       const res = await orderService.createOrder(orderPayload);
 
-      if (paymentMethod === "banking") {
+      if (finalTotal <= 0) {
+        // TRƯỜNG HỢP: 0 ĐỒNG -> THÀNH CÔNG LUÔN
+        clearCart();
+        toast.success("Đơn hàng 0đ đã được xác nhận!");
+        setIsSuccess(true);
+        router.push(`/thank-you?orderId=${res._id}`);
+      } else if (paymentMethod === "banking") {
         setCurrentOrder(res);
         setShowPaymentModal(true);
-        clearCart();
+        // clearCart();
       } else {
         clearCart();
         toast.success("Đặt hàng thành công!");
+        router.push(`/thank-you?orderId=${res._id}`);
       }
-      console.log("ok");
-      router.push(`/thank-you?orderId=${res._id}`);
     } catch (error: any) {
       console.error("Lỗi đặt hàng:", error);
       toast.error(
         error.response?.data?.message || "Đặt hàng thất bại. Vui lòng thử lại."
       );
-      setIsSuccess(false);
     } finally {
       setIsProcessing(false);
-      // setIsSuccess(false);
     }
   };
 
   const handleCloseModal = () => {
     setShowPaymentModal(false);
-    router.push("/order-history");
+    // router.push("/order-history");
+    toast.info(
+      "Bạn đã hủy thanh toán QR. Vui lòng thử lại hoặc chọn phương thức khác."
+    );
   };
 
   // Tránh render khi chưa có dữ liệu giỏ hàng
@@ -538,7 +577,14 @@ export default function CheckoutPage() {
     <div className="min-h-screen bg-gray-50 py-10 font-sans text-slate-800">
       {/* 1. Modal Thanh Toán QR */}
       {showPaymentModal && currentOrder && (
-        <BankTransferModal order={currentOrder} onClose={handleCloseModal} />
+        <BankTransferModal
+          order={currentOrder}
+          onClose={handleCloseModal}
+          onSuccess={() => {
+            clearCart();
+            setIsSuccess(true);
+          }}
+        />
       )}
 
       <div className="container mx-auto px-4 max-w-6xl">

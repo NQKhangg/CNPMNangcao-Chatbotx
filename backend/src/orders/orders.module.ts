@@ -1,4 +1,4 @@
-import { Module } from '@nestjs/common';
+import { forwardRef, Module } from '@nestjs/common';
 import { OrdersService } from './orders.service';
 import { OrdersController } from './orders.controller';
 import { Order, OrderSchema } from './entities/order.entity';
@@ -15,7 +15,7 @@ import { CouponsModule } from '../coupons/coupons.module';
       { name: Product.name, schema: ProductSchema }, // Đăng ký Product Model
     ]),
     UsersModule,
-    InventoryModule,
+    forwardRef(() => InventoryModule),
     CouponsModule,
   ],
   controllers: [OrdersController],

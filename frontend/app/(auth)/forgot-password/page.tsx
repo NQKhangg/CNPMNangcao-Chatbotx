@@ -79,7 +79,7 @@ export default function ForgotPasswordPage() {
     <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4 font-sans">
       <div className="max-w-md w-full bg-white rounded-2xl shadow-xl overflow-hidden animate-fade-in">
         {/* Header Section */}
-        <div className="bg-slate-900 p-8 text-center relative">
+        <div className="bg-green-600 p-8 text-center relative">
           <Link
             href="/login"
             className="absolute top-4 left-4 text-white/70 hover:text-white transition-colors"

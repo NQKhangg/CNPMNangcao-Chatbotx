@@ -1,5 +1,7 @@
 import {
   BadRequestException,
+  forwardRef,
+  Inject,
   Injectable,
   NotFoundException,
 } from '@nestjs/common';
@@ -14,7 +16,8 @@ import { AuditLogsService } from '../audit-logs/audit-logs.service';
 export class UsersService {
   constructor(
     @InjectModel(User.name) private userModel: Model<UserDocument>,
-    private rolesService: RolesService, // Dùng để lấy Role mặc định (Customer)
+    @Inject(forwardRef(() => RolesService))
+    private rolesService: RolesService, // Dùng để lấy Role
     private auditLogsService: AuditLogsService,
   ) {}
 

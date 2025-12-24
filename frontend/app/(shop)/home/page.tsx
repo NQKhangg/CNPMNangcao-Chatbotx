@@ -6,6 +6,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { toast } from "sonner";
+import Cookies from "js-cookie";
 
 // Icons
 import {
@@ -86,8 +87,13 @@ export default function HomePage() {
       try {
         const user = await userService.getProfile();
         if (user) setIsUser(true);
-      } catch (e) {
+      } catch (e: any) {
         // User chưa login, bỏ qua
+        if (e.response.status === 401) {
+          Cookies.remove("token");
+          localStorage.removeItem("token");
+          setIsUser(false);
+        }
       }
     };
     fetchUser();

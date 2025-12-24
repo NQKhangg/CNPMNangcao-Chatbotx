@@ -20,6 +20,7 @@ import {
 
 // Internals
 import { authService } from "@/services/auth.service";
+import Cookies from "js-cookie";
 
 // --- 2. TYPES ---
 interface RegisterFormData {
@@ -60,6 +61,8 @@ export default function RegisterPage() {
         if (res.accessToken) {
           localStorage.setItem("accessToken", res.accessToken);
           localStorage.setItem("refreshToken", res.refreshToken);
+          Cookies.set("token", res.accessToken, { expires: 7 }); // Lưu 7 ngày
+          Cookies.set("role", res.role, { expires: 7 });
 
           toast.success("Đăng ký thành công!", {
             description: "Chào mừng bạn đến với FreshFood.",

@@ -18,6 +18,7 @@ async function bootstrap() {
       frontendUrl, // Cho phép link Ngrok (từ .env)
       'http://localhost:3000', // Cho phép Localhost (để bạn code)
     ],
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
   });
   // app.enableCors({

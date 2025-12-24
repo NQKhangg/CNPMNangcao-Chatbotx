@@ -8,6 +8,8 @@ import {
 import { JwtService } from '@nestjs/jwt';
 import { Observable } from 'rxjs';
 import { Request } from 'express';
+import { Reflector } from '@nestjs/core';
+import { IS_OPTIONAL_KEY } from 'src/common/decorators/optional-auth.decorator';
 
 /**
  * AuthenticationGuard: Middleware kiểm tra đăng nhập.
@@ -17,7 +19,10 @@ import { Request } from 'express';
  */
 @Injectable()
 export class AuthenticationGuard implements CanActivate {
-  constructor(private jwtService: JwtService) {}
+  constructor(
+    private jwtService: JwtService,
+    private reflector: Reflector,
+  ) {}
 
   /**
    * Hàm canActivate: Quyết định cho phép (true) hoặc chặn (false/throw exception) request.
@@ -31,10 +36,24 @@ export class AuthenticationGuard implements CanActivate {
     // 2. Lấy token từ header Authorization (Bearer ...)
     const token = this.extractTokenFromHeader(request);
 
-    // 3. Nếu không có token -> Chặn luôn, báo lỗi 401 Unauthorized
+    // 3. Check xem Route này có phải là Optional không?
+    const isOptional = this.reflector.getAllAndOverride<boolean>(
+      IS_OPTIONAL_KEY,
+      [context.getHandler(), context.getClass()],
+    );
+
+    // --- LOGIC XỬ LÝ TOKEN ---
     if (!token) {
-      throw new UnauthorizedException('Invalid token: Token not found');
+      if (isOptional) {
+        return true; // Nếu là Optional -> Cho khách qua
+      }
+      throw new UnauthorizedException('Vui lòng đăng nhập (Token missing)'); // Nếu là Private -> Chặn
     }
+
+    // 3. Nếu không có token -> Chặn luôn, báo lỗi 401 Unauthorized
+    // if (!token) {
+    //   throw new UnauthorizedException('Invalid token: Token not found');
+    // }
 
     try {
       // 4. Xác thực Token
@@ -58,11 +77,14 @@ export class AuthenticationGuard implements CanActivate {
       request['userId'] = payload.userId;
     } catch (e) {
       // 6. Nếu verify thất bại (Token hết hạn, sai secret...) -> Báo lỗi
+      if (isOptional) {
+        return true; // Token lỗi nhưng là trang Optional -> Vẫn cho qua (khách vãng lai)
+      }
       Logger.error(`Auth Error: ${e.message}`);
       throw new UnauthorizedException('Invalid Token: Verification failed');
     }
 
-    // 7. Nếu chạy êm đẹp đến đây -> Cho phép request đi tiếp vào Controller
+    // 7. Nếu chạy đến đây -> Cho phép request đi tiếp vào Controller
     return true;
   }
 
